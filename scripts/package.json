@@ -1,0 +1,15 @@
+{
+  "name": "cinema-scrapping",
+  "version": "0.0.0",
+  "description": "module to scrap info from odeon cinemas",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mcarmen jimenez campos",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cheerio": "^0.20.0",
+    "request": "^2.69.0"
+  }
+}
