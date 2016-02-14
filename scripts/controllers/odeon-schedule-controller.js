@@ -7,15 +7,14 @@ let Film = require('../models/film.js');
 
 class OdeonScheduleController extends CinemaScheduleController {
 	getSchedule(){
-		console.log('odeon getSchedule');
-		requestp(this.cinema.url).then(body => {
+		return requestp(this.cinema.url).then(body => {
 			let $ = cheerio.load(body);
 			let me = this;
 			$('.film-detail.WEEK').each(function(){
 				let film = me.getFilmInfo(this, $);
 				me.cinema.addFilm(film);
 			});
-			console.log(this.cinema.films.length);
+			return this.cinema;
 		}).catch(error => {console.log(error)});
 	}
 

@@ -1,4 +1,13 @@
-describe('Odeon Scrapping', function(){
+"use strict";
+
+let OdeonScheduleController = require('../controllers/odeon-schedule-controller.js'),
+	chai = require('chai'),
+	sinon = require('sinon'),
+	cheerio = require('cheerio'),
+	request = require('request'),
+	expect = chai.expect;
+
+describe('OdeonScheduleController', function(){
 	var odeonPageBody = '<section id="ind-film-list-WEEK">' + 
 '    <div id="28683" class="film-detail WEEK">' + 
 '        <div class="content-container film _WEEK" id="film-28683">' + 
@@ -216,71 +225,65 @@ describe('Odeon Scrapping', function(){
 '    </div>' + 
 '</section>';
 
-	var odeonCinema,
-		Odeon,
-		chai,
-		cheerio,
-		expect;
+	let scheduleController;
 
-	before(function(){
-		Odeon = require('../modules/odeon-scrapping.js');
-		chai = require("chai");
-		cheerio = require('cheerio');
-		expect = chai.expect;
-		odeonCinema = new Odeon();
+	before(function(done){
+		scheduleController = new OdeonScheduleController('BFI IMAX', 'http://www.odeon.co.uk/cinemas/bfi_imax/211/');
+		sinon.stub(request, 'get')
+			 .yields(null, {statusCode: 200}, odeonPageBody);
+		done();
+	});
+
+	after(function(done){
+    	request.get.restore();
+    	done();
 	});
 
 	it('should get all films in the page', function(){
-		var films = [];
-		$ = cheerio.load(odeonPageBody);
-		films = odeonCinema.getSchedule($);
-		expect(films).to.have.length(2);
+		scheduleController.getSchedule().then(cinema => {
+			expect(cinema.films).to.have.length(2);
+		});
 	});
 
+
 	it('should get film name correctly', function(){
-		var films,
-		expectedName = 'America Wild: National Parks Adventure';
-		$ = cheerio.load(odeonPageBody);
-		films = odeonCinema.getSchedule($);
-		expect(films[0].name).to.equal(expectedName);
+		let expectedName = 'America Wild: National Parks Adventure';
+		scheduleController.getSchedule().then(cinema => {
+			expect(cinema.films[0].name).to.equal(expectedName);
+		});
 	});
 
 	it('should get all the days a film is screening', function(){
-		var films;
-		$ = cheerio.load(odeonPageBody);
-		films = odeonCinema.getSchedule($);
-		expect(films[0].schedule).to.have.length(4);
+		scheduleController.getSchedule().then(cinema => {
+			expect(cinema.films[0].schedule).to.have.length(4);
+		});
 	});
 
 	it('should get film screening day correctly', function(){
-		var films,
-			expectedDay = 12,
+		let expectedDay = 12,
 			expectedMonth = 1;
-		$ = cheerio.load(odeonPageBody);
-		films = odeonCinema.getSchedule($);
-		expect(films[0].schedule[0].day.getDate()).to.equal(expectedDay);
-		expect(films[0].schedule[0].day.getMonth()).to.equal(expectedMonth);
+		scheduleController.getSchedule().then(cinema => {
+			expect(cinema.films[0].schedule[0].day.getDate()).to.equal(expectedDay);
+			expect(cinema.films[0].schedule[0].day.getMonth()).to.equal(expectedMonth);
+		});
 	});
 
 	it('should get film screening time for a day', function(){
-		var films;
-		$ = cheerio.load(odeonPageBody);
-		films = odeonCinema.getSchedule($);
-		expect(films[0].schedule[0].times).to.have.length(1);
+		scheduleController.getSchedule().then(cinema => {
+			expect(cinema.films[0].schedule[0].times).to.have.length(1);
+		});
 	});
 
 	it('should get all film screening times for a day', function(){
-		var films;
-		$ = cheerio.load(odeonPageBody);
-		films = odeonCinema.getSchedule($);
-		expect(films[1].schedule[1].times).to.have.length(3);
+		scheduleController.getSchedule().then(cinema => {
+			expect(cinema.films[1].schedule[1].times).to.have.length(3);
+		});
 	});
 
 	it('should get film screening time correctly', function(){
-		var films,
-			expectedTime = '11:45';
-		$ = cheerio.load(odeonPageBody);
-		films = odeonCinema.getSchedule($);
-		expect(films[0].schedule[0].times[0]).to.equal(expectedTime);
+		let	expectedTime = '11:45';
+		scheduleController.getSchedule().then(cinema => {
+			expect(cinema.films[0].schedule[0].times[0]).to.equal(expectedTime);
+		});
 	});
 });
