@@ -92,7 +92,6 @@ class OdeonScheduleController extends CinemaScheduleController {
 		}
 		return monthNumber;
 	}
-
 }
 
 module.exports = OdeonScheduleController;
