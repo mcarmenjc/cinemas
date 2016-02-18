@@ -5,7 +5,7 @@ let requestp = require('../helpers/requestp.js');
 let cheerio = require('cheerio');
 let Film = require('../models/film.js');
 
-class PlayhouseScheduleController extends CinemaScheduleController {
+class PicturehouseScheduleController extends CinemaScheduleController {
 	getSchedule(){
 		return requestp(this.cinema.url + '/Whats_On').then(body => {
 			let $ = cheerio.load(body);
@@ -51,4 +51,4 @@ class PlayhouseScheduleController extends CinemaScheduleController {
 	}
 }
 
-module.exports = PlayhouseScheduleController;
+module.exports = PicturehouseScheduleController;

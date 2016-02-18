@@ -17,6 +17,6 @@ let requestp = function(url){
 			resolve(body);
 		});
 	});
-}
+};
 
 module.exports = requestp;
