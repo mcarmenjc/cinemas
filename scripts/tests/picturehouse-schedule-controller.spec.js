@@ -26,6 +26,11 @@ describe('PicturehouseScheduleController', function(){
 		scheduleController = new PicturehouseScheduleController('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse');
 	});
 
+	after(function(done){
+		request.get.restore();
+    	done();
+	});
+
 	it('should get all films in the page', function(done){
 		scheduleController.getSchedule().then(cinema => {
 			expect(cinema.films).to.have.length(8);
@@ -78,17 +83,17 @@ describe('PicturehouseScheduleController', function(){
 			expectedTime = '14:00';
 		scheduleController.getSchedule().then(cinema => {
 			let film = cinema.getFilm(filmName);
-			console.log(film.schedule[0].times);
+			expect(film.schedule[0].times[2]).to.equal(expectedTime);
 			done();
 		});
 	});
 
 	it('should add normal time to film day times', function(done){
 		let filmName = 'Deadpool',
-			expectedTime = '21.10';
+			expectedTime = '21:10';
 		scheduleController.getSchedule().then(cinema => {
 			let film = cinema.getFilm(filmName);
-			console.log(film.schedule[0].times);
+			expect(film.schedule[0].times[1]).to.equal(expectedTime);
 			done();
 		});
 	});

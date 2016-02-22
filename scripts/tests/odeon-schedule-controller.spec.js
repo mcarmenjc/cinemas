@@ -25,6 +25,7 @@ describe('OdeonScheduleController', function(){
 	});
 
 	after(function(done){
+		request.get.restore();
     	done();
 	});
 

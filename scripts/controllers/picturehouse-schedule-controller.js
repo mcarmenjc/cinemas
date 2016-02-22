@@ -48,7 +48,7 @@ class PicturehouseScheduleController extends CinemaScheduleController {
 	getFilmTimes(listElement, $){
 		let times=[];
 		$(listElement).find('dl.film-times').find('a.btn.btn-xs').each(function(){
-			times.push($(this).text());
+			times.push($(this).text().replace('.', ':'));
 		});
 		return times;
 	}
