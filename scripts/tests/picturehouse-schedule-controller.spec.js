@@ -3,32 +3,36 @@
 let PicturehouseScheduleController = require('../controllers/picturehouse-schedule-controller.js'),
 	chai = require('chai'),
 	sinon = require('sinon'),
-	cheerio = require('cheerio'),
-	request = require('request'),
-	filesystemp = require('../helpers/filesystemp.js'),
+	request = require('../services/request-service.js'),
+	fs = require('fs'),
 	expect = chai.expect;
 
 describe('PicturehouseScheduleController', function(){
 	let scheduleController;
+	function mockGetRequest (){
+		let file = './data/picturehouse.html',
+			content = fs.readFileSync(file, 'utf8');
+		return new Promise(function(resolve, reject){
+			resolve(content);
+		});
+	}
 
 	before(function(done){
+		let stub = sinon.stub(request, "get", mockGetRequest);
 		scheduleController = new PicturehouseScheduleController('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse');
-		filesystemp.readFile('./data/picturehouse.html')
-				   .then(function(htmlContent){
-				   		sinon.stub(request, 'get')
-			 				 .yields(null, {statusCode: 200}, htmlContent);
-			 			done();
-				   });
+		done();
 	});
 
 	after(function(done){
-    	request.get.restore();
     	done();
 	});
 
 	it('should get all films in the page', function(){
 		scheduleController.getSchedule().then(cinema => {
-			expect(cinema.films).to.have.length(2);
+			console.log(cinema.name);
+			for (let film of cinema.films){
+				console.log(film.name);
+			}
 		});
 	});
 });

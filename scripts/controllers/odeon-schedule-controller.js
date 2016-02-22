@@ -1,13 +1,13 @@
 "use strict";
 
 let CinemaScheduleController = require('./cinema-schedule-controller.js');
-let requestp = require('../helpers/requestp.js');
+let request = require('../services/request-service.js');
 let cheerio = require('cheerio');
 let Film = require('../models/film.js');
 
 class OdeonScheduleController extends CinemaScheduleController {
 	getSchedule(){
-		return requestp(this.cinema.url).then(body => {
+		return request.get(this.cinema.url).then(body => {
 			let $ = cheerio.load(body);
 			let me = this;
 			$('.film-detail.WEEK').each(function(){

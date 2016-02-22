@@ -1,33 +1,24 @@
 "use strict";
 
 let CinemaScheduleController = require('./cinema-schedule-controller.js');
-let requestp = require('../helpers/requestp.js');
+let request = require('../services/request-service.js');
 let cheerio = require('cheerio');
 let Film = require('../models/film.js');
 
 class PicturehouseScheduleController extends CinemaScheduleController {
 	getSchedule(){
-		return requestp(this.cinema.url + '/Whats_On').then(body => {
+		return request.get(this.cinema.url + '/Whats_On')
+		.then(body => {
 			let $ = cheerio.load(body);
 			let me = this;
 			let currentDay = undefined;
-			$('ul.whats-on').find('li').each(function(){
-				if ($(this).hasClass('heading dark')){
-					currentDay = me.getDate($(this).text());
-				}
-				else {
-					let name = this.getFilName(listElement, $),
-						times = me.getFilmTimes(listElement, $),
-						film;
-					if (times.length === 0){
-						//look for film in cinema film array
-						//if exists, append new day and times
-						//if not create a new film, add day and times and push it to the cinema films array
-					}
-				}
-			});
+			console.log(body);
 			return this.cinema;
-		}).catch(error => {console.log(error)});
+		})
+		.catch(error => {
+			console.log('error');
+			console.log(error);
+		});
 	}
 
 	getDate(dateText){
