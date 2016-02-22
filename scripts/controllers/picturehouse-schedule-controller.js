@@ -1,13 +1,15 @@
 "use strict";
 
-let CinemaScheduleController = require('./cinema-schedule-controller.js');
-let request = require('../services/request-service.js');
-let cheerio = require('cheerio');
-let Film = require('../models/film.js');
+let CinemaScheduleController = require('./cinema-schedule-controller.js'),
+	request = require('../services/request-service.js'),
+	cheerio = require('cheerio'),
+	Film = require('../models/film.js'),
+	Cinema = require('../models/cinema.js');
 
 class PicturehouseScheduleController extends CinemaScheduleController {
-	getSchedule(){
-		return request.get(this.cinema.url + '/Whats_On')
+	getSchedule(cinemaName, cinemaUrl){
+		let cinema = new Cinema(cinemaName, cinemaUrl);
+		return request.get(cinema.url + '/Whats_On')
 		.then(body => {
 			let $ = cheerio.load(body);
 			let me = this;
@@ -21,16 +23,16 @@ class PicturehouseScheduleController extends CinemaScheduleController {
 						times = me.getFilmTimes(this, $),
 						film;
 					if (times.length > 0){
-						film = me.cinema.getFilm(name);
+						film = cinema.getFilm(name);
 						if (film === undefined){
 							film = new Film(name);
-							me.cinema.addFilm(film);
+							cinema.addFilm(film);
 						}
 						film.addSchedule(currentDay, times);
 					}
 				}
 			});
-			return this.cinema;
+			return cinema;
 		})
 		.catch(error => {
 			console.log(error);
