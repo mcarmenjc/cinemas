@@ -1,20 +1,22 @@
 "use strict";
 
-let CinemaScheduleController = require('./cinema-schedule-controller.js');
-let requestp = require('../helpers/requestp.js');
-let cheerio = require('cheerio');
-let Film = require('../models/film.js');
+let CinemaScheduleController = require('./cinema-schedule-controller.js'),
+	request = require('../services/request-service.js'),
+	cheerio = require('cheerio'),
+	Film = require('../models/film.js'),
+	Cinema = require('../models/cinema.js');
 
 class OdeonScheduleController extends CinemaScheduleController {
-	getSchedule(){
-		return requestp(this.cinema.url).then(body => {
+	getSchedule(cinemaName, cinemaUrl){
+		let cinema = new Cinema(cinemaName, cinemaUrl);
+		return request.get(cinema.url).then(body => {
 			let $ = cheerio.load(body);
 			let me = this;
 			$('.film-detail.WEEK').each(function(){
 				let film = me.getFilmInfo(this, $);
-				me.cinema.addFilm(film);
+				cinema.addFilm(film);
 			});
-			return this.cinema;
+			return cinema;
 		}).catch(error => {console.log(error)});
 	}
 
@@ -41,56 +43,9 @@ class OdeonScheduleController extends CinemaScheduleController {
 	getDate(dateText){
 		let regex = /[A-Za-z]+(\d+)\s(\w+)/gmi,
 			splitDate = regex.exec(dateText),
-			month = this.getMonthNumber(splitDate[2]),
+			month = super.getMonthNumber(splitDate[2]),
 			day = +splitDate[1];
 		return new Date(2016, month, day);
-	}
-
-
-	getMonthNumber(monthString){
-		let monthNumber;
-		switch(monthString.toUpperCase()){
-			case 'JAN':
-				monthNumber = 0;
-				break;
-			case 'FEB':
-				monthNumber = 1;
-				break;
-			case 'MAR':
-				monthNumber = 2;
-				break;
-			case 'APR':
-				monthNumber = 3;
-				break;
-			case 'MAY':
-				monthNumber = 4;
-				break;
-			case 'JUN':
-				monthNumber = 5;
-				break;
-			case 'JUL':
-				monthNumber = 6;
-				break;
-			case 'AUG':
-				monthNumber = 7;
-				break;
-			case 'SEP':
-				monthNumber = 8;
-				break;
-			case 'OCT':
-				monthNumber = 9;
-				break;
-			case 'NOV':
-				monthNumber = 10;
-				break;
-			case 'DEC':
-				monthNumber = 11;
-				break;
-			default:
-				monthNumber = -1;
-				break;
-		}
-		return monthNumber;
 	}
 }
 
