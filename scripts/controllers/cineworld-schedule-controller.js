@@ -12,11 +12,14 @@ class CineworldScheduleController extends CinemaScheduleController {
 		return request.get(cinema.url).then(body => {
 			let $ = cheerio.load(body),
 				siteId = this.getSiteId($);
-			console.log(siteId);
 			return siteId;
 		})
 		.then(siteId => {
-			let films = this.getFilmsFromSiteId(siteId);
+			return this.getFilmsFromSiteId(siteId)
+			.then(films => {
+				cinema.films = films;
+				return cinema;
+			});
 		})
 		.catch(error => {
 			console.log(error);
@@ -45,21 +48,36 @@ class CineworldScheduleController extends CinemaScheduleController {
 				css: 'cat-',
 				mod: 'cinemapage_movie_list',
 				attrs: '2D,3D,DBOX,4DX,M4J'
-			};
-		request.post(url, params)
+			},
+			films = [];
+		return request.post(url, params)
 		.then(filmInfo => {
-			let $ = cheerio.load(filmInfo);
+			let $ = cheerio.load(filmInfo),
+				me = this;
 			$('div.mix.col-xs-12').each(function(){
 				let dataFeat = $(this).attr('data-feat'),
-					filmData = JSON.parse(dataFeat);
-				console.log(filmData.n);
-				console.log(filmData.BD[0].date);
-				console.log(filmData.BD[0].P);
+					filmData = JSON.parse(dataFeat),
+					film = me.getFilmInfo(filmData);
+				films.push(film);
 			});
+			return films;
 		})
 		.catch(error => {
 			console.log(error);
 		});
+	}
+
+	getFilmInfo(filmData){
+		let film = new Film(filmData.n);
+		for (let date of filmData.BD){
+			let day = new Date(date.date),
+				times = [];
+			for (let time of date.P){
+				times.push(time.time);
+			}
+			film.addSchedule(day, times);
+		}
+		return film;
 	}
 }
 

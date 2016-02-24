@@ -28,7 +28,6 @@ let requestp = {
 			paramString = paramString + key + '=' + encodeURI(params[key]);
 		}
 		urlParam = url + paramString;
-		console.log(urlParam);
 		return new Promise (function(resolve, reject){
 			request.post(urlParam, function(err, res, body){
 				if (err === undefined && res.statusCode !== 200){

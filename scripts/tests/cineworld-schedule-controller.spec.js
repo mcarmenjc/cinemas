@@ -17,8 +17,17 @@ describe('CineworldScheduleController', function(){
 		});
 	}
 
+	function mockPostRequest (){
+		let file = './data/cineworld-response.html',
+			content = fs.readFileSync(file, 'utf8');
+		return new Promise(function(resolve, reject){
+			resolve(content);
+		});
+	}
+
 	before(function(done){
-		let stub = sinon.stub(request, "get", mockGetRequest);
+		sinon.stub(request, "get", mockGetRequest);
+		sinon.stub(request, "post", mockPostRequest);
 		done();
 	});
 
@@ -28,13 +37,14 @@ describe('CineworldScheduleController', function(){
 
 	after(function(done){
 		request.get.restore();
+		request.post.restore();
     	done();
 	});
 
 	it('should get all films in the page', function(done){
 		scheduleController.getSchedule('THE O2', 'https://www1.cineworld.co.uk/cinemas/london-the-o2-greenwich')
 		.then(cinema => {
-			expect(cinema.films).to.have.length(8);
+			expect(cinema.films).to.have.length(23);
 			done();
 		});
 	});
