@@ -15,7 +15,7 @@ class CineworldScheduleController extends CinemaScheduleController {
 			return siteId;
 		})
 		.then(siteId => {
-			return this.getFilmsFromSiteId(siteId)
+			return siteId === -1 ? [] : this.getFilmsFromSiteId(siteId);
 		})
 		.then(films => {
 			cinema.films = films;
