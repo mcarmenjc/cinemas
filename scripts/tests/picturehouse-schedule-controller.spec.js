@@ -23,7 +23,7 @@ describe('PicturehouseScheduleController', function(){
 	});
 
 	beforeEach(function(){
-		scheduleController = new PicturehouseScheduleController('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse');
+		scheduleController = new PicturehouseScheduleController();
 	});
 
 	after(function(done){
@@ -32,7 +32,7 @@ describe('PicturehouseScheduleController', function(){
 	});
 
 	it('should get all films in the page', function(done){
-		scheduleController.getSchedule().then(cinema => {
+		scheduleController.getSchedule('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse').then(cinema => {
 			expect(cinema.films).to.have.length(8);
 			done();
 		});
@@ -40,7 +40,7 @@ describe('PicturehouseScheduleController', function(){
 
 	it('should get film name correctly', function(done){
 		let expectedName = 'A Bigger Splash';
-		scheduleController.getSchedule().then(cinema => {
+		scheduleController.getSchedule('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse').then(cinema => {
 			let film = cinema.getFilm(expectedName);
 			expect(film).to.not.be.undefined;
 			expect(film.name).to.equal(expectedName);
@@ -50,7 +50,7 @@ describe('PicturehouseScheduleController', function(){
 
 	it('should add all days to film schedule when the film is screened everyday', function(done){
 		let filmName = 'Deadpool';
-		scheduleController.getSchedule().then(cinema => {
+		scheduleController.getSchedule('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse').then(cinema => {
 			let film = cinema.getFilm(filmName);
 			expect(film.schedule).to.have.length(4);
 			done();
@@ -59,7 +59,7 @@ describe('PicturehouseScheduleController', function(){
 
 	it('should add only one the days the film is screened', function(done){
 		let filmName = 'Goosebumps 2D';
-		scheduleController.getSchedule().then(cinema => {
+		scheduleController.getSchedule('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse').then(cinema => {
 			let film = cinema.getFilm(filmName);
 			expect(film.schedule).to.have.length(2);
 			done();
@@ -70,7 +70,7 @@ describe('PicturehouseScheduleController', function(){
 		let filmName = 'Deadpool',
 			expectedDay = 18,
 			expectedMonth = 1;
-		scheduleController.getSchedule().then(cinema => {
+		scheduleController.getSchedule('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse').then(cinema => {
 			let film = cinema.getFilm(filmName);
 			expect(film.schedule[0].day.getDate()).to.equal(expectedDay);
 			expect(film.schedule[0].day.getMonth()).to.equal(expectedMonth);
@@ -81,7 +81,7 @@ describe('PicturehouseScheduleController', function(){
 	it('should add special time to film day times', function(done){
 		let filmName = 'Deadpool',
 			expectedTime = '14:00';
-		scheduleController.getSchedule().then(cinema => {
+		scheduleController.getSchedule('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse').then(cinema => {
 			let film = cinema.getFilm(filmName);
 			expect(film.schedule[0].times[2]).to.equal(expectedTime);
 			done();
@@ -91,7 +91,7 @@ describe('PicturehouseScheduleController', function(){
 	it('should add normal time to film day times', function(done){
 		let filmName = 'Deadpool',
 			expectedTime = '21:10';
-		scheduleController.getSchedule().then(cinema => {
+		scheduleController.getSchedule('the ritzy', 'http://www.picturehouses.com/cinema/Ritzy_Picturehouse').then(cinema => {
 			let film = cinema.getFilm(filmName);
 			expect(film.schedule[0].times[1]).to.equal(expectedTime);
 			done();
