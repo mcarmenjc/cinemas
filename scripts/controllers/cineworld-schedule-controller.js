@@ -16,10 +16,10 @@ class CineworldScheduleController extends CinemaScheduleController {
 		})
 		.then(siteId => {
 			return this.getFilmsFromSiteId(siteId)
-			.then(films => {
-				cinema.films = films;
-				return cinema;
-			});
+		})
+		.then(films => {
+			cinema.films = films;
+			return cinema;
 		})
 		.catch(error => {
 			console.log(error);
@@ -70,7 +70,7 @@ class CineworldScheduleController extends CinemaScheduleController {
 	getFilmInfo(filmData){
 		let film = new Film(filmData.n);
 		for (let date of filmData.BD){
-			let day = new Date(date.date),
+			let day = this.getDay(date.date),
 				times = [];
 			for (let time of date.P){
 				times.push(time.time);
@@ -78,6 +78,11 @@ class CineworldScheduleController extends CinemaScheduleController {
 			film.addSchedule(day, times);
 		}
 		return film;
+	}
+
+	getDay(date){
+		var dateString = date.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+		return new Date(dateString[3], dateString[2]-1, dateString[1]);
 	}
 }
 

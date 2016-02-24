@@ -48,4 +48,41 @@ describe('CineworldScheduleController', function(){
 			done();
 		});
 	});
+
+	it('should get film name correctly', function(done){
+		let expectedName = 'Deadpool';
+		scheduleController.getSchedule('THE O2', 'https://www1.cineworld.co.uk/cinemas/london-the-o2-greenwich')
+		.then(cinema => {
+			expect(cinema.films[0].name).to.equal(expectedName);
+			done();
+		});
+	});
+
+	it('should get all film screening dates', function(done){
+		scheduleController.getSchedule('THE O2', 'https://www1.cineworld.co.uk/cinemas/london-the-o2-greenwich')
+		.then(cinema => {
+			expect(cinema.films[0].schedule).to.have.length(8);
+			done();
+		});
+	});
+
+	it('should get film screening day correctly', function(done){
+		let expectedDay = 18,
+			expectedMonth = 1;
+		scheduleController.getSchedule('THE O2', 'https://www1.cineworld.co.uk/cinemas/london-the-o2-greenwich')
+		.then(cinema => {
+			expect(cinema.films[0].schedule[0].day.getDate()).to.equal(expectedDay);
+			expect(cinema.films[0].schedule[0].day.getMonth()).to.equal(expectedMonth);
+			done();
+		});	
+	});
+
+	it('should get film screening times correctly', function(done){
+		let expectedTime = '12:50';
+		scheduleController.getSchedule('THE O2', 'https://www1.cineworld.co.uk/cinemas/london-the-o2-greenwich')
+		.then(cinema => {
+			expect(cinema.films[0].schedule[0].times[0]).to.equal(expectedTime);
+			done();
+		});	
+	});
 });
