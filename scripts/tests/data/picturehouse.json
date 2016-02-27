@@ -1,0 +1,337 @@
+{
+  "html_attributions": [],
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.46251519999999,
+          "lng": -0.1382098
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "41dd7284844b5e71a48f4ee6bbcc9186b4646060",
+      "name": "Clapham Picturehouse",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "place_id": "ChIJ1_8BglIEdkgRSu8f5v7ESpM",
+      "rating": 4.3,
+      "reference": "CnRoAAAAMKa9TKwpGu3yxXLyvH45dETFTwBL14tCsueiqn5N9AjaQW-WLGTJzOWRXP_xczAOzK3BlnADhwg95Mfb510u2fitgxeMyHrEHmBKEJHegd7T_jjBMJMIsSC1DJowzG-ggDEGcmFnce-WFuij5rU7TRIQCBWF7ZJASFbLIUcHJ2nQ_hoU_xGmXXjeU1MSGISoGzRhCAo_Khg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "76 Venn Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4794438,
+          "lng": -0.0096817
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "b0a929941881a7d0c538d4f28ca9fa9f4596f3a4",
+      "name": "Greenwich Picturehouse",
+      "photos": [
+        {
+          "height": 2688,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102695922173118039914/photos\">Jack Percival</a>"
+          ],
+          "photo_reference": "CmRdAAAAlOw4P23tUXLklMgj4rv9baluvuX9n7y-9r6OPpSxvQ4R43zAQACtodq3t2nARcPD3-0rQkL7z6Ru5vwxZiX8wVeb8y0ZJwdJlnDG-kkQTw_JVGW2rgWSjM0Vnay0a6NjEhCOeRLkPntaE3qDMPIkkZT5GhQe0BoRmqWcfr9j-aZdvwsc5OK8fg",
+          "width": 1520
+        }
+      ],
+      "place_id": "ChIJSe7FBoYCdkgRLwRO6w0FCsM",
+      "rating": 4.4,
+      "reference": "CnRqAAAAZWHEiK3loP6gP0sjHoeUmI6XNHJX_DdHAUz-aqQVkflPiTLdvO-PvC4Zk8mXcNqkxG-hOYslae-iK-qAAXuLEmKtmJZXeMXzSZHyQLQBYHk8OzN7g0fRuTOwAM0sgky6TCS-IEl_xzDp5x54rEWcxRIQfoppHt3I92uem_Z2mFoowRoUWfsEwO9_jt7jegjOkr582NipxL8",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "180 Greenwich High Road, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5430065,
+          "lng": 0.0012
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "f937ba4a8c9746262e170eef834e01239417d562",
+      "name": "Stratford East Picturehouse",
+      "photos": [
+        {
+          "height": 375,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102325606035734739503/photos\">Stratford East Picturehouse</a>"
+          ],
+          "photo_reference": "CmRdAAAADaRkvHoV1YZuEUaCqMNubX9Jjg2sbP0XbBgynzl7FbGvUwJqIxur5Gzmgb-fa8GoAga1ipGmMF_Ksdcf8198ZfpZHbvIr2IR-i3ymTcV5aHNGFIaLaoWDPKBbEgUm03zEhAyKAexAS6cVAYV3Jk9dspQGhQZXN4aa4SgtT83AX68n1Mi6l8vyg",
+          "width": 500
+        }
+      ],
+      "place_id": "ChIJieUiv4mn2EcRwqfIMvh6_NE",
+      "rating": 4.1,
+      "reference": "CnRvAAAAA5fGUbu4_xpNlvICpCrNXvrufcOWpPcOYE8_TSAVzfHiY5zRw7btHqDeBKyLbrXzhWizwWDgXC_hXg9LFam1uqMVKPhmJXaVmoqSOV7gt5fUM1_i_gt66oipILVCFZ6Bi_V-vKixv8cEbj1g6EueFBIQQygpMQHCtpvM46M7EkIg3BoUrz6LAtadhg6ldDbIo3Z0Bewft9Q",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Salway Road, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5092828,
+          "lng": -0.1302232
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "a5cb0419ec667cc9e0a241d2f2c9b3fbd726c4dd",
+      "name": "Picturehouse Cinemas",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": []
+      },
+      "place_id": "ChIJKTT-8NEEdkgR3NRk8szuYM0",
+      "reference": "CnRoAAAAXUztRkitfV6xnaG2YdDyJrUevqnms5wK6S_NGI8x3tuzHMhtafdkHem9aG0hywRX8B5TM9jSGO3dSHv65OEaiJ3upI36X9pKexV7J_YHkoSY1TE4qqdGKs5MzWn3Ie7gu4bx8IVZlT_ZPou_6guqTBIQ4nU38xz2TT3wDugLo0YgtxoU7Ca4-3y9suofoIqP-4iXFwPlJv0",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "30 Orange Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5087734,
+          "lng": -0.1972581
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "543cffd2f08f25a6460220f1c523bd7065c27cfc",
+      "name": "The Gate Cinema",
+      "photos": [
+        {
+          "height": 472,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113954641843602847316/photos\">The Gate Cinema</a>"
+          ],
+          "photo_reference": "CmRdAAAAk8vzehugPiDjtw_FXNVEpXc0V_BDstDq4X59XrIENFrxcm8xQLb5t4JtMPqFrzWOnLx2HpX9RSsfl4BfqBP9hL2y4ZEZhgIn_E2mlMnBFhK6nwXAmAzrrGBYwW3e3Op_EhCJjF6wPfy7wPaAekrLwk83GhRs00Dab170wy67OFvGBXDtuzW3rg",
+          "width": 555
+        }
+      ],
+      "place_id": "ChIJT2E2d_sPdkgRhhHK1rTv5z4",
+      "rating": 4.6,
+      "reference": "CnRiAAAAsl8MTksjo66WZieTJbs9bNgThrO2ycoEHxkHpsxM1py8EsXAGebbpGduy3r_70667iZG-3wJb3_u3x74Veon1p9m6lHB0V0gKXdFOITfKqy1rl_iHpisuWqdjigBefn1m6K2AWZluz2p8DX-PDQCuhIQt7Kr_GpcK89K0fM53O7jZBoUtnz5LYbxyexZli6l0-CvkSNNtto",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "87 Notting Hill Gate, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.53910699999999,
+          "lng": -0.9049419999999998
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "ef8ecd82ff070455a6dd1c16fce9f141b57f26c3",
+      "name": "Regal Picturehouse",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 804,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112508503884561836869/photos\">Regal Picturehouse</a>"
+          ],
+          "photo_reference": "CmRdAAAAg9q5Oy7xZdCo2FrY97yA20jjiR4oO7R-bN15ttX7TjVTCNmWIlUg-mex54sNpbH_HMoLPQAxSBpccO1_suW_zvpHL54FPTqr_UQoGR_3_k7fa3va_xcv2CgPyXtUiF_hEhCg5qgR9OC5wWHB95GRh1r1GhTrcbFT0KrMcwiTEPpYRzaFaazbZg",
+          "width": 1206
+        }
+      ],
+      "place_id": "ChIJc33NwKaPdkgR6LptTZRKnbU",
+      "rating": 4.4,
+      "reference": "CnRmAAAAYVaB7vKi2EY1feND_n767yOFX1GsqKf5aCp5gC1m6gPzwGzHnDglaYH6PZWkvFU339OxF847Y00bc2zTuRpj0ZuEDfYAiA1TgGmRxKG2aaTGKYI3Wse_gH77CilTBQZ8XEbC0TxiOGbJy06iNe4EUxIQhA1ALnvvIhU5pV9ZQU3CQRoUOp11TVBEigSMTco3BOtCNG29G1s",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "2 Boroma Way, Henley-on-Thames"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5447022,
+          "lng": -0.05489840000000001
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "0237f18258d96c9090d6f7d3f01b80334bd2c523",
+      "name": "Hackney Picturehouse",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 949,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104381448880295920589/photos\">Caterina Reed</a>"
+          ],
+          "photo_reference": "CmRdAAAA1PiJ4awOMa9r37flo10c4wlniNaBDrODCYAbXUJivJ_BsdNQJUpa2a_RVYoMHsOFVOCGTBhvLTQYU9cLikxjagVSNVFZrdTZ-JyLHWcUzQ1Ti9kd_Fd_RKLcqGg9M4-VEhBm7IiyiJGsQ8On6YL-F_CSGhSzhIPzDVJTWCIYbr6ywM1j__exOQ",
+          "width": 1265
+        }
+      ],
+      "place_id": "ChIJ-b9h-uQcdkgR6cVkkHcXw0c",
+      "rating": 4.5,
+      "reference": "CnRnAAAAYJxhtICn1WhhOeL93re7aqULb2sRPs5zGdalPyGlxdvXAokNlvphS98t7BZv1vCTrW4SNyQOPdOIrVVc9INhq8XU9a9PhMl3XEBUk6EZ5zkzphmSguAwwPnLYRbzerLEPD0sPU8Nrt6S9sz7dn8KfhIQGItXeCq8Y6rE5s2KLHoC6RoUiapmyue3QjOqCReBOe3i4vMZ7Mg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "cafe",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "270 Mare Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5106799,
+          "lng": -0.1337492
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "9f3b21c145737db57e4b9f751d4fb210aa93a649",
+      "name": "Picturehouse Central",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 2048,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103489126985963419412/photos\">Mark Douglas</a>"
+          ],
+          "photo_reference": "CmRdAAAAuXK-GxLADaQwhP78lj8WsKCA3OeJrZrzGocn_u5QcHlnuiOSjTy-OwF534NODDtsmjfOGsPVGRg2jLd0VBHDFdG5FqdZWJ_rVQ2A2pUTfIKR3HuB16AxPY_K7MgEAQ0yEhABQJgHo1Gfg7HEgVTMUeTYGhSUws2bDR7GyQ0mM25Of1RbIhPVcg",
+          "width": 1536
+        }
+      ],
+      "place_id": "ChIJ3VekwdMEdkgRLykSZWGOPnk",
+      "rating": 4.4,
+      "reference": "CnRnAAAAr9BL3eTDFawa2HLbx0lsTN9rvO5P2HSKtPUwbkJSrROgAHHbhWI2lKo0d5Bx_4aI3GYXfygSetDhLHNo1t_P3IHSNraUqxnu5N-DvQ213n2f8IKd444Yy6sabbu9aaQ2jHklUXmVzZAfq5s_L79XQRIQ-__tPxZusyHe92BYn1jZPhoUVr5DeuY-SpuAG1mSQ5IwC6lA_Vo",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Corner of Shaftesbury Avenue and Great Windmill Street, Piccadilly, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4564201,
+          "lng": -0.07617199999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "193f22a010a3f5a130ae1924ce3c122f0fcc9b32",
+      "name": "East Dulwich Picturehouse & Cafe",
+      "place_id": "ChIJg8gr9pMDdkgRhIF02LqusN8",
+      "rating": 4.4,
+      "reference": "CoQBdAAAALYHx9zBvnvPOqQimeqZTD09Esoq3BDlgsH4LqtbYWyifD_bcW0iLFu7tjjwIptj90R9NtWlVmGGKK8W5il4JQBDiOzOzxmLbfCsUkBZGFTpyTUHXQypgI2jYy_PCNYaIQaKp5Yl1dGAf_ZVeysYrNVxI8OLfn-M7DyOsbPp_a1VEhBTV6-GdacL25PnzFY43TwpGhQPf9W98NmAv6kzbLUzBypePr09wA",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "116a Lordship Lane, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.581629,
+          "lng": -0.1207875
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "2df088e941eec11b29f8b282ce07eadc57bec8ac",
+      "name": "Crouch End Picturehouse",
+      "photos": [
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110508198534987145686/photos\">Dean Bové</a>"
+          ],
+          "photo_reference": "CmRdAAAAZXEYQSvBuoVupQDR5sN_9C8iHuUAHaoXnodgmgWuk1ralRBbjnk2uCqDP9iiHiwG7gmPIpHxmUwMrYGxY9Kh-zXZYpktIoDxpyp7_oDtb5EUHI8biYjyDVwxpCdQ9Bl6EhAFHHFiF5g3__dafTdc5sBWGhQsnCCgQNXELbwe5msWFmRmiVQJXA",
+          "width": 3264
+        }
+      ],
+      "place_id": "ChIJa_6RCcEbdkgRqJf0QRNviVs",
+      "rating": 4.8,
+      "reference": "CnRqAAAAMW8y7uCVZmym5mkCb-KCDeKr2ySwf3s8RxZtlnc0JRv_LSHpTkejRndb0sQn-ymWmoiE8pmtgFuRPdWalde2FNTq-EcI67DpUIpMt7s69H5MoDZjVpwJG6NuGV-Y3DZQFray7vjMqnGcgM9ClYOHXxIQNsJbViZgA2F1QhOxtuG86RoUr5ps9VJa5LmEN8baDteohGfCsHU",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "165 Tottenham Lane, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.46112629999999,
+          "lng": -0.1153118
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "a2bc5f8ca82caadae5db6d497279ca0c38a5b94b",
+      "name": "Ritzy Cinema and Cafe",
+      "place_id": "ChIJIy3uY2gEdkgR_Sjnydxzv3c",
+      "rating": 4.3,
+      "reference": "CnRoAAAA7IMZuabybcaHvio4uTnbqLZ0a9L00-De-ve8XcTnZ_dlBmSW_B4zPyR5mnzTADSgb_KCK_9Zs9esKwbjZaA5orAq5TbYx9_x5Hhivz8ql5cyzsbD-Iq2-sk64-84xIZEeh_Mh8GKemjcDlRuu2ACzhIQ2EbCqkPtYFY5VSaqBYKgJxoUQguXJlVPyG0YFGiNmqpvkoAmESw",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "cafe",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Brixton Oval, Brixton"
+    }
+  ],
+  "status": "OK"
+}

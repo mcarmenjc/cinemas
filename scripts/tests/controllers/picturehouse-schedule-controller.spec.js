@@ -1,16 +1,16 @@
 "use strict";
 
-let PicturehouseScheduleController = require('../controllers/picturehouse-schedule-controller.js'),
+let PicturehouseScheduleController = require('../../controllers/picturehouse-schedule-controller.js'),
 	chai = require('chai'),
 	sinon = require('sinon'),
-	request = require('../services/request-service.js'),
+	request = require('../../services/request-service.js'),
 	fs = require('fs'),
 	expect = chai.expect;
 
 describe('PicturehouseScheduleController', function(){
 	let scheduleController;
 	function mockGetRequest (){
-		let file = './data/picturehouse.html',
+		let file = '../data/picturehouse.html',
 			content = fs.readFileSync(file, 'utf8');
 		return new Promise(function(resolve, reject){
 			resolve(content);

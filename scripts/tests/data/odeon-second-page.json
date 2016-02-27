@@ -1,0 +1,606 @@
+{
+  "html_attributions": [],
+  "next_page_token": "CrQDqQEAABYj_QyjfW3FTKkOwyjU_1qxqq5GLd86rfzaTU3tMq91dpV3rKi27y7-IRdvnQDANztoUcRPz_tGI-K-aH61ppWrVWNFHzSx2TAJjCcD2bYAPLXHwNJtrkVTa77JS-T4rnp_JQ4pojkaq1eU-p8bMzLuaCUYPMYbvulxTZ_yp-nb1tkw5xmGRzHouaqGqFL6l1mKTAgt8sOHy9fNdD2GTFqHaOryvOdZRaiD_nfLk4h46sfUV95940EseV4IK7Y091JfVSiWiXLQaBQgLWXVOSBZgMDyChcqxXAdRBgISb7XszbAM5wBc2HSQwkb2zrtg1QiyMBghtZ9GCWh8S7l-ZWQTqbqP2rDcKRa2zGJdUM4Q9IwwCVTtDihEDs68qHwfOsZBSItkuvRqpzv1-hjeYrI3-rL3qbC2ohF-LOrWgSl4WJmQ9Eam0T2vPm-Pu1PCR9v3Bbo-tSbmJrjBZUsNi04UB3B4mBxdnkQbBBNxTy5wpBJ5AM2VtdrXeZfm3qZzZvaprr2hV-hwBiWNt_QgfPuhwQM5HCm2KlkgF21Avwa1tn4dxOl45UVsNttbvpiWhIQB6yLhPJ5w_QtzXIsmUagxxoUW1HK_0jTwRTHdnNRQ7D52Wt0IRE",
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4960742,
+          "lng": -0.0448185
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "5f62c0846dfb4c9edc186e9dddf517a1f9353ba2",
+      "name": "Odeon Cinema Surrey Quays",
+      "photos": [
+        {
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113911589785180948601/photos\">Odeon Cinema Surrey Quays</a>"
+          ],
+          "photo_reference": "CmRdAAAAUXjZTm_DBZprCQXyikZ-5afzJCqSDUG-VB_o5hZ_RTdA52JgQjon5EwhCfkWL0iUIKqruKl8N19ybMcGvtasfL1hkuVXW0oKrXr3mbKfnKhQvG2T9O_VrrKS002-KUgjEhCwAC80NMWXq2HWrKp9dZr-GhQnZ0aCD6TvdJ-P7kPML0K8NM-b0Q",
+          "width": 600
+        }
+      ],
+      "place_id": "ChIJGTY0qN8CdkgR5fzIXjzgJsY",
+      "rating": 3.3,
+      "reference": "CnRtAAAAjjp2oe0SwP1fQa2D3D6-oPuHsXsBFRYB8ejJW6pvNCc4TJexqGD4WgbVLHhESGlSOkt2kWcboChFnF0MfuNwxFXwoU-zfM6Yg2tTNWKKdZmZIWzviBEqYI0pYxHYHBsN9Agem6rycQdOlCVSQOaWkxIQUkk3xGTiNNDZBeEgdI29YRoUQXaCXfIVpyOmB8TH8RL7qZSMySI",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Surrey Quays Leisure Park, Redriff Road, London, Surrey Quays"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.23805180000001,
+          "lng": -0.5789093
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "1e48308512381239b52ae61a8f0bcd74c56aa9cf",
+      "name": "ODEON Guildford",
+      "photos": [
+        {
+          "height": 300,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108172441311550994989/photos\">ODEON Guildford</a>"
+          ],
+          "photo_reference": "CmRdAAAAlnsr5UqgDQRqq2HDobonm07J_c1PM7Iztm-pwljzUNk32JWSseou0bqyeLS46OyAPKc7SM8bGJ9f6uWhzQL4OXsy9ZLLihjfdk6j5F7E9L3dQccUK85xgM91LxNqzNM3EhBTh8JrUXSTanomAR8UdecRGhTrn4WaIe33I5yDxfhnP6cgPurDpA",
+          "width": 300
+        }
+      ],
+      "place_id": "ChIJs9UQLpTQdUgR0fw3eb1uIIg",
+      "rating": 3.5,
+      "reference": "CnRjAAAAvP_lfSlJKP9IO5fl9tO450ScSv6ClNOcV1dsgl_ecjMBMV-TURkErnc60Pa2v9-KxslXxe6RY83cKU5B8uYW-fPZnqUbM9OAS4n9h7--cGSnT-Q4LhiKUka49Y8qc8xfSYexGYCne4QKUT2QSU8rGRIQlx6Wr9QdwADg1lk-eBqTNxoUPUd26o_tUn5ZJoyM77ygS9Bo-2I",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Bedford Road, Guildford"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4902775,
+          "lng": 0.0125184
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "ea2cc6811c75d98a0f1c81586ded201b884974ab",
+      "name": "Odeon IMAX",
+      "photos": [
+        {
+          "height": 480,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114747052255816223074/photos\">taz dot com</a>"
+          ],
+          "photo_reference": "CmRdAAAA3YiQkPFdi7oV6DXFcEFEXBUwNK3WYBEHTZkekqBTHw8U83ZDJM39HrO9wSUvzi8NqzloTDNkuXgikE_8KYZUAJnW_FxM2j7aez7zZC_VNSt4Jf41gcGgbdJt50yiHbylEhChbL1b5xi5x7AIKc40uVMrGhREOfwZuQv3r_HApTt5p5W2034tSQ",
+          "width": 640
+        }
+      ],
+      "place_id": "ChIJV9DJkD6o2EcRU7piWt6eKBM",
+      "rating": 3.9,
+      "reference": "CmRdAAAALAIggkoqx0C37w4aPCNJPu0kmWtto-773fSUNO4kX0LBKn_mifK6BhEf68nUSYQtBwP55Mxl60_UmVBsbLDYupeUkBcPxwSly5RsK44BvMEnf6fl0inrTA3CAoxAOy2mEhBMFqQ2QGIBWqDEZatA37e4GhQirQuPJWbxzCpGCAyPPVaFcFlWDQ",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Bugsby Way, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.8152901,
+          "lng": -0.8103488999999998
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "003733dcebfa7c152edf455a501d6477860d83cf",
+      "name": "Odeon",
+      "place_id": "ChIJMf3rU6j3dkgRRvSP9Y6MDlY",
+      "rating": 4,
+      "reference": "CmRYAAAAbd5bSdZ8eWZggfUI2eeaOGNctDc3m3EYunYG67tuXs_f_izf2Ei5RyKBjPOS8sJd2s-F6wblNbt_WLK-dWXIEFFiMuXsSRcx0PO3l5GeZDYzt-RaOnFNgQ0OUDECeqlJEhCvN_b8AQn0ImT9Khxv5JU3GhQwirSzBt8T_STQK_7jGBRop0mWHg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Exchange Street, Aylesbury"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.63316849999999,
+          "lng": -0.0372351
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "d54dfafc626f5a1863e290db67f553ae90aa4db6",
+      "name": "Odeon",
+      "photos": [
+        {
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116312093462238886781/photos\">Odeon</a>"
+          ],
+          "photo_reference": "CmRdAAAAQ-BTfjwNMIgK3LtynMKFtKsM5LbvibeYoKhOt5mJsOWaigpXzl-ClupnOrCxFX75dT9q2v5ibGtd_d6MfvQ3OGFOx9HIpEybdNNwJn_14uHLkPP71QRGDtUkkLwo6GqLEhAN2W5he9d_8jru4zslf4ZpGhTYqXqV-jwVFsvagIEtUk7xcoQqew",
+          "width": 600
+        }
+      ],
+      "place_id": "ChIJZ9BlTloedkgRMx_MWbh5iB0",
+      "rating": 4.2,
+      "reference": "CmRYAAAAbTdEWOd3BXbUuZ_s0FagwkYKYKX9_LwoWrR5i_fepyusZv2EZF6Jf6Q7nMWvPZrWCyHhmnBd9yZfVRz0_dxBbKtxAHaRq3H7rTqpydTUYqi6V1QygJIGTLslNwyP7O3WEhBvWxcI5z9UJuvp8BDEIDfoGhSulmkYVDAG8R-Pu_bVgm7ZUuV7_g",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Lee Valley Leisure Complex, Pickett's Lock Lane, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.48702050000001,
+          "lng": 0.2699572000000001
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "31acb016fbf5730add35c7bc9242a536b30544f7",
+      "name": "Odeon Cinema",
+      "place_id": "ChIJDTVyUMmw2EcRs5pY7VswCio",
+      "reference": "CmRfAAAALzjIzQ6uGHJLwE-PItC91SBJ2c0C7gMpUefjIMKhOU5BSV26ggX2BJoWIackkysR8ntFV1ibfrTNpi_IBPaolDztKxjnRU1fpD340oTqLz38BunH6PxHdhDnCJdW3AU1EhD_raA6SGhiYX41tLl3UlHbGhRHrBC8mV3pI8MwzPLrXcRpEjbvrw",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "West Thurrock"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.1543311,
+          "lng": 0.2969986999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "92ec851636c8d5de2e7f6097df47a1146e1a04da",
+      "name": "Odeon Cinema",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106735354718260841169/photos\">Odeon Cinema</a>"
+          ],
+          "photo_reference": "CmRdAAAAPkLaItkQHiQZlVYO00iGQwMAMn_55WqFrn57uAkaidbcI3AVopz1WJwYygFTG6BnD-ypCn-O9xRxeGMXPBfbUYeWKKJjiU1vi7insGziDPi7zMsCa5n2h78-_ntZFXEWEhCWsCAg1PrfQZ7Erq6jk75gGhRkStUgJRfVHSR5627lqEkx2emZLw",
+          "width": 600
+        }
+      ],
+      "place_id": "ChIJ9-WV72tG30cRZsN0xJG5zc0",
+      "rating": 2.9,
+      "reference": "CmRgAAAA4TpeVuG-b1C9K4cN2VOZ-S79HmzSi4jMjI4CWU2NTQxiw2dAxLZTTKWSYNu6rXe-1n8q19wFnjrewD-H4hPl_WALFFp3IiDqMND1sSSsnY_otME7nRxvmywDCxCEWQmSEhCPV146dUHM8G9EqZUmXZR6GhT8Bq5LlM79U7DgCa00Xwp4svJ-OQ",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Knights Park, Knights Way, Royal Tunbridge Wells"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.7703946,
+          "lng": 0.09127380000000002
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "c8a39d1df1ff54907e06da15b6bc4780b9ed2a2d",
+      "name": "Odeon Cinema Harlow",
+      "place_id": "ChIJi8kqqAGc2EcRAtt9xJ_30Wg",
+      "reference": "CnRmAAAA6jgJdJtTC1HKJy45dhiTxQFhKsYLWJfCGQdh9ZOmg6N3N7CCL-Gw_msivi-ttMDCcoKeuusMOLYE2rUidSqLLCkdA71tECUDlCewr2R4jq0_UyyRWWtMl0W0BIaIEO2lTUPcVJISipje6dmmCB4EuxIQhb3qhKmHgzYLZOUpxTTV5xoU__R8EtSqCQU65yPjxYOjGdmcPLM",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Queensgate Centre, Edinburgh Way, Harlow"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.376535,
+          "lng": 0.10136
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "3ad2e2a0e89c16f0643375fea630035eed311575",
+      "name": "Odeon Orpington",
+      "photos": [
+        {
+          "height": 447,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107626845502239507216/photos\">Odeon Orpington</a>"
+          ],
+          "photo_reference": "CmRdAAAAQ2mslupfWFpRq6qe7Xgk44PIK_wJccaZR_fZSrUM20KrBiLH8xBJGEVopKFC7bVb5qnQYEYSPfMYAzzkr4hQ0XDLCIOS47T9fIzCqiwxic4otihmnIyhSYCUhnO2jHwrEhCtsntrycQUL6xSdztLf7XmGhSG9QxiOASJbz2ZYYAZcnLh8hOBWg",
+          "width": 447
+        }
+      ],
+      "place_id": "ChIJ4yc3EJus2EcRu01aVqOUm88",
+      "reference": "CnRjAAAA4Chxab1etUeY8X8KGBe021LbawU_O5ojACKTNYxX3zD0tzknglgXPVK-xB_0OQAZEaoPCo47F_HTFfhVQIExECe9-Io0l2RSZrzw89GWiy-2Ihi5k-nyCNWXg7DsG_aH93mJOH7nKJgL2plCs30QkBIQ4Klg18xxMvF3cswhjYNDmhoUH29xoD2jA5LdgIou8LfXJ2KGHVs",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "The Walnuts, Shopping Centre, The Walnuts, Orpington"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.3645841,
+          "lng": -0.1954462
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "051e406095ddb75a302fc304d67b7f62dda1beb3",
+      "name": "Empire Cinemas Sutton",
+      "photos": [
+        {
+          "height": 500,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102927506578446778906/photos\">Empire Cinemas Sutton</a>"
+          ],
+          "photo_reference": "CmRdAAAAJ3IeJJhE5RXH_qO5LXIEq-GHYsrZPtT94zuroGtOSMY5mIhW7evwDQ1EVB9HSiDdRqP1KClAfzs-CPbduEWSM_vC9fjAiubt4a_FAONPY5jfR6IVViP9fycsW8NYBx6dEhBFe0TI7-qN5WIPgCX6cX-7GhRvkG20HjCZcuShrZRODdsaE18EJw",
+          "width": 500
+        }
+      ],
+      "place_id": "ChIJCVoy8QwIdkgRSl5IuVrf_OE",
+      "rating": 3.3,
+      "reference": "CnRpAAAAx5_ryfn3_EhXiMLKYVjnx7IPVMbrbBX6PUWczW2VjJpn2bYZ957BYa9TaYQ5TQmqHBDZOaC9ibsyvUBRIlqQuyoN1dve27XvRuEnEerJFZpyNaljAUXEBgixTeF3VLxP4LqYDjyEgrebblQt3qjRYBIQ_SZ4PM6GnWO24AiJHRDlgBoU6qcOof3JX-1dsMcpTppHslM9H1M",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "St. Nicholas Shopping Centre, Saint Nicholas Way, Sutton"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5087316,
+          "lng": -0.1323821
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "3d658236c7d7ab37f82eeaccac47fe25fb97a039",
+      "name": "Cineworld Cinemas, London Haymarket",
+      "photos": [
+        {
+          "height": 2048,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108860826490832790838/photos\">Katie Glass</a>"
+          ],
+          "photo_reference": "CmRdAAAApFHTMmJPOuyRtkk_8Rpys4elYLklfrobA8_qcxxwCGTodoLA9z-BuWPrzDMIxOk278XQ5AVTEyhKQhrHOfGwTJzMxDHlzuC4blCSinjaEOhVs8VLr7MpgvdOVY-p7amyEhA-t3WozaX9UlXcvIyAeWrMGhQQg4GCDYF7HhGoeWBzdqWDFjsGkA",
+          "width": 1536
+        }
+      ],
+      "place_id": "ChIJMZKOdtEEdkgRZDgFwhfgGUg",
+      "rating": 3.3,
+      "reference": "CoQBdgAAABxKcU9jhn6GkGhz2Y4V-8XIE51L43rwhRR7o1oTvFSs3ELgN1caoK4FLr4bXkSuqS4kVuKk3ek3zMgagHzAmS1CuIUmn0piZ09Z-N5JEOgNOS2zE6VFkLR3UhC1Ueahw5xmwluToQbumOBa0dcKIvHL3W6sAWhVzRCUnaQ75x9rEhAUJhhF51vdIiKTY7W1taAYGhS1XBBj51ctcfyOAiaSDIEr6YpqFg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "63-65 Haymarket, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.53420999999999,
+          "lng": -0.1060082
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "ce3c7a5ba7321b20ac48089d810c0ed72c9bfac4",
+      "name": "Vue Islington",
+      "photos": [
+        {
+          "height": 100,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109808647110781613974/photos\">Vue Islington</a>"
+          ],
+          "photo_reference": "CmRcAAAAycTzbfJW6aajCwQ1FCjtz_DtfgkzDVMfXfjx7eB2EJHeTOXNSayPc2bwCkQJT_TQ_hV-qzj3jjEzmafUMr2iKAtLwEYbuiICAF2-_WHeQ3u5rgrpklhgCAe4U0GhnWUuEhAVaoB3KGzq9cR4KlGwNqZkGhTZhh7GUso5FEBeYkj59fAeK4Hu8Q",
+          "width": 228
+        }
+      ],
+      "place_id": "ChIJ_VZGxkIbdkgRZoQV3mvWk7o",
+      "rating": 3.7,
+      "reference": "CnRhAAAA8Uetw2U-kyTTFi_uj8owgcaf8cEOsDTg1bviJF-c_LnFXFgdl8g9w12EQMTn2V8xX2GOG-yc6aiYummqlo9Ho3LhsQBD15uPHNoADPasD9pqG-jbyODfA_Y-FPjqQ48QsaTtZwj3_7G_tk_yNyVSshIQhtS3Jrmja7GA9Wahio1bVRoUZ1KjbHcuyo2HKvNVm4gBWxhUCmY",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Central Shopping Mall, 36 Parkfield Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4063954,
+          "lng": 0.012083
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "36b753cd4d0309deaa37f2048d86200fa4a33695",
+      "name": "Empire Cinemas Bromley",
+      "photos": [
+        {
+          "height": 500,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112628391514735282430/photos\">Empire Cinemas Bromley</a>"
+          ],
+          "photo_reference": "CmRdAAAAyJ604FBu_PEYfu_PiHEVBjMOp6CPG8t-UEgq0ZEZemM87XtVi6UnkbqWC9in3V2o1XvomdrExP1Ya2yaw-F0Um_jaoJ8aWFuhlR3sDJIu_yKWh7jvCNJY1IyACTEPAFMEhBCjQHcMOvWBVjQ7Ko6oAhMGhRJlRd_KKG67HYiUW19QqtB200n8A",
+          "width": 500
+        }
+      ],
+      "place_id": "ChIJL0vpj22q2EcRBsg72yuXzj8",
+      "rating": 3.1,
+      "reference": "CnRpAAAA1-guL-H7S698aTMb5Y6SS1xAjc0hBZ7o59zHESjGNdwls1jcaVmEYnVUVLq60F9F6PsJ25kiSleDoHJ5aDVD7Enmy5dbY-7YVflslgrY8MGcfgoZkOyGhHY2AMr6k94C3UC5VZ5KZXUkDiaXMTtYWhIQhPoeNtg7xUG21r47NSCjARoUvuRM94ZHa6baRfXGza7xw48wOPI",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "242 High Street, Bromley"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.54366,
+          "lng": -0.0064861
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "ada95beee2d2f17d6fda192b9f5c1ea48c45064a",
+      "name": "Vue Cinemas",
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114171271739098637750/photos\">Keiko Ono</a>"
+          ],
+          "photo_reference": "CmRdAAAAZCtIxN3ESDD8oaC1ITqmCWoa1BbF7m_KHdP19dugn-6ltbij5KaYuOBLQf5-2bN82Vkkpj06A4hzfrERQ2LyYqDc-QZgLSI490C7R1PUVwB4yATbqog7JZw_gkieIGw9EhCPJ00dqZUy85f49UcRpn_YGhQFngvenituA9-gQlDaKtPlCV7_kA",
+          "width": 5312
+        }
+      ],
+      "place_id": "ChIJOSH5G30ddkgR9pvx5His1FU",
+      "rating": 3.3,
+      "reference": "CmReAAAAIuvH3M54jznMTrVAgKsKAeFfaS2mHIXB4khSqyCLZzIGIK1O6P0jpLaywcxIdniR9wFRIbVYqEucY0bkcF311uCpLDC5CF_UKVAeS94aFt6vBgoiUl6ZgPAYbh0hYTU2EhBbf0vcI1kraqsA8CRTPnEZGhQfCoJ_cW5LhvKt2WMDLwkZOMu73Q",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "2 Westfield Stratford City, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.48793599999999,
+          "lng": 0.2807024
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "d7fa95a828d32f4020336a10e1046595af0e75cd",
+      "name": "Vue Cinemas",
+      "photos": [
+        {
+          "height": 100,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102383294677798740857/photos\">Vue Cinemas</a>"
+          ],
+          "photo_reference": "CmRcAAAA6YksKtlmTGhfcdWkJygkAkHmQHYLKuwwGNpWGSpyRSYr8TXZK7gWCmQ1VZCQhvZ73hKlSBdbPJbc6jfhpUoOfHciklXHlrn8d5vgmwYgsMjceDHD2mxRRHGBe2ILlkyHEhBzevix1xAZcp58z24cWgNhGhRpe0UZ4ET4NgYXScmfxm7U7cRavA",
+          "width": 228
+        }
+      ],
+      "place_id": "ChIJWy5ro8yw2EcRIGvnvCao4wM",
+      "rating": 4,
+      "reference": "CmReAAAAAg2U8GW7pplHydF9gUYWB0TG3YXJtRX-xact7sl26qMY9mnWEKIoJ8TcTsS4IyNoQ77Vsg678dzDbZePY-5U5SF66DeDtS0kzDKZwmKPQIcvQbNQhygCeC256bdLWNmHEhAgfKa2lKiHwdPoAL46CHdVGhRnkr-17vtuV91HU7XSy-96sVrDoA",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Lakeside Shopping Centre, Essex"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.3779678,
+          "lng": -0.1245403
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "65442bbdf48c523c6b80b74476c814ddfa047dfb",
+      "name": "Vue Cinema Purley Way",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 100,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111908840901114482266/photos\">Vue Cinema Purley Way</a>"
+          ],
+          "photo_reference": "CmRcAAAA9IRN8kmePGT_TSe43IyJsEeTWfK3SyMWx4Hafvg0-Tf_oNaY7yIjebEUSzgY6fztEa6gQRqUHle4klXwObMQfMNywSgBCRwaxeo0BLwPjZso7o-GSaU9LhbYPCGErAQkEhAO-sNxt1uGOuKHLhMBPFO7GhRlzaEVCHecup-0Gc4bjYJxvm0s5g",
+          "width": 228
+        }
+      ],
+      "place_id": "ChIJJY7meRoHdkgR3N1SfDyFnfw",
+      "rating": 3.8,
+      "reference": "CnRpAAAAMAnbDVoEDzGCsCtAYoxlLHihHSEzs3C1K26hMlilT5gBWC3Nt6xV3UYOscBNTvWzCxt3JCiV76xXw5vImh096FSGWgPrP58OMUjTSvQ05mbg9aqn6H4LSLHydTrr-f2ptn2nskUIkCkWcLNhHEWi_BIQzfUsSCQX1y_xhi8ObSIs4xoUb8oE82prErzX4Qw6DBDJeopuif4",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Valley Park Leisure Complex, 21 Hesterman Way, Croydon"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4561,
+          "lng": 0.149884
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "cd19ffeb7e7ba5531aa7520a268c8bca37d2f08a",
+      "name": "Cineworld Cinemas - London Bexleyheath",
+      "photos": [
+        {
+          "height": 5312,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116484957160202991406/photos\">Andrew Hoang</a>"
+          ],
+          "photo_reference": "CmRdAAAA26qMM-mwdRlgDSPspswcYaRGdtbspWPM4iej0tSu2qGE_FEuiIcE3vddcO9izZo9jjV1f2eINm510f8IoQFBoFn_DGFAlrpcHJnKImalRQJV3ArMH2VmIhngkXwvJaePEhANMOctLUE4P4weORwqwbysGhQa5LD2tvqcVKcKURPxja6jm5abng",
+          "width": 2988
+        }
+      ],
+      "place_id": "ChIJJytUjlyu2EcRRhJmg0AMNvM",
+      "rating": 3.1,
+      "reference": "CoQBegAAAE7TqcFR-iwOQsccyFIZ6EXR7-Cj9ZSt0g35EdKvOMXsSoj9XR1f88Xp8eVSp7f5Kf_fEKLu2kYYG2S03GPLVeMoy6AwmL2rZZQMR57eZwukrgVpaxB9CLWLmcK4ubN94bxkBXpC3aAOgjswColQSJ9yun1ubOodkPd72SH3nREVEhC3p9XvDE5HNm9Uc9CyuOGaGhSK-YNniDR12yXlO0qwUATsSjUYKA",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "28-70 Broadway, Bexleyheath"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.510946,
+          "lng": -0.1304952
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "8989b4948cecd695ddec279a52b2f69cba1a2ce6",
+      "name": "Empire Leicester Square",
+      "photos": [
+        {
+          "height": 2048,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104259443862379278732/photos\">John Holiday</a>"
+          ],
+          "photo_reference": "CmRdAAAAQCYTSmbm-13_Oay-cmWat7RClOxRLhXTx845GDysbLKHh0l48Wsueh0v68NCOh4sIfb4nvM_PEfDUu-8L1WlEL2F-dvBsf5b1LssT1tGw2RpAmW7V3-6UFtaywqGY4oSEhCjhYTZENnpiiUFECQYWTv-GhQCDM_L3hcxSnr0v2-ZCufcrKbpCg",
+          "width": 1536
+        }
+      ],
+      "place_id": "ChIJhSP9BdIEdkgRcQo22TpPw8k",
+      "rating": 4.3,
+      "reference": "CnRrAAAAsbF1nRnpGjDiK0iRXMJV9vfvlyDW9EZrnYmrJMzT6HZ8VUTqSmsUyDESvvX2gz9HvoP5mwugAuNXeQfUdSGzQGQtBUF6tD6yVAbhV7DVCh3xHXMoKJuTL3dFDv6_HdeeMZ_f-5baIzZSxOo7DZT1YxIQhhtYSEpCy8BPa1W8ylTlERoUC4DXkSBeRldSoRPQ2iWZhZdsnco",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "5-6 Leicester Square, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5749392,
+          "lng": 0.1800084
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "d4b08d5137fc3d07a4d6d50a038bf0326665b767",
+      "name": "Vue Cinemas",
+      "photos": [
+        {
+          "height": 100,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110214708619476534417/photos\">Vue Cinemas</a>"
+          ],
+          "photo_reference": "CmRcAAAAY4ck6qa3CA7YVZ4Us-lOaGCAUyenDh7z1fQE_sMuVrKqhfVv8f9U0sQ34VgM-3OHVdEqf0wHTxaOmOw5k-5Pb8uRwQkIo259Ca78wt-dsrbOqs3zKxRrClWjv_0k3SbSEhCsjCaftVsVmv7w5GmiyeYTGhQ6g6nU7vsuOeduS7gQPBs-oh41jw",
+          "width": 228
+        }
+      ],
+      "place_id": "ChIJ0XDY-sik2EcRlKxDQyZtkMw",
+      "rating": 3.6,
+      "reference": "CmRfAAAAtGUEWsYzOSnrzbx90wHJXr1Zgq9V20_Oyw7B5val5DmrmVTW7G_C_E6VeO7MJ8ViJqu9pmEl6VCU_1psRYHvnH-PnC9V9PZvr8LDMAJHIV1qlb9a9X79ASg8BpXNGIlrEhB7a8PEEj94dAiMtAJjdAX6GhQFyejfIEo8qBw09dGToTvZi1CnNQ",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "1-15, The Brewery, Romford"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.3729776,
+          "lng": -0.1009094
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "cd97012f59441b683313c5d1233b0e5467675fdc",
+      "name": "Vue Cinema",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 100,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104785761846912092327/photos\">Vue Cinema</a>"
+          ],
+          "photo_reference": "CmRcAAAAW9EoqKzh3ncKOHjlXHZSMJn4N3U_CY0l_gK2ZpMCcooMmSFSGxfMu9eC367cEtI2bVNoBly_3ZYkUUHd9F0C9zOV9VTNxMR-Vqn_w2bA_6yl3fH1pw__E6q5U6kzsiSvEhDJbuaRNMGgR5dBKRiZTbWFGhSQCp1WPQoecTKRa_j4OSpZlS32gw",
+          "width": 228
+        }
+      ],
+      "place_id": "ChIJu9_QtTYHdkgR8i2L9P8VtG8",
+      "rating": 3.7,
+      "reference": "CmRdAAAA5C1bV8VFOKNvk9YjELrfkSPkdGekLHV82dpUk1S-Y3u3nXohYhO55tqaE27g5z7fCCVcytm_U0iIND9gsc9UznMblJ-hBU4uzL6xRfPgSqxprgUVMBZLALugaQexDAlZEhCxgjjwiVhRhl38eGl11DimGhRXp6_5fhqHU4bEO55m8sXdXEUWxw",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Grants Entertainment Centre, 14 High Street, Croydon"
+    }
+  ],
+  "status": "OK"
+}

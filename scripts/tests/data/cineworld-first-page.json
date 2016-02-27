@@ -1,0 +1,547 @@
+{
+  "html_attributions": [],
+  "next_page_token": "CpQCDQEAAM27AE-KVr8rE8605Xg_BQU-81vfHDd6LzRc5KSd96vSu-QrwvBbe3JqBaOKLJ9vb2xH6NAPqgWkithk5uAFug6GXS8I37UBPVqnq5Vd7YSn6XALTX1LAnsjYo9igA9NoGuxdKxVdp6GvMqdGuTIzgI2khekdV6_gnoX_gOmlcw7lAOdVnLRkz-CxXwIkOt_cxQ92AyAPuO0Q8oPnm8tZ1y4XaO202e3-JfZy0nF17m_yjrcAi3D4elbdUgeWbVBHpn5Dm17i7CAqgjBN8kjz6yM4VDYNIAOT8UKDvuTPZ0_eCtQBoMT0KMpJTZENcQiC9OBihJNDQZvtwX2EeMyzV6aZW4opRAOuJhq_l-c34SGEhAtMofYjLNt-kmxye3Z6gsGGhQldYAr7JyOmyH6OUJcoy_ikgsx5g",
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4561,
+          "lng": 0.149884
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "cd19ffeb7e7ba5531aa7520a268c8bca37d2f08a",
+      "name": "Cineworld Cinemas - London Bexleyheath",
+      "photos": [
+        {
+          "height": 5312,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116484957160202991406/photos\">Andrew Hoang</a>"
+          ],
+          "photo_reference": "CmRdAAAA33Cb7WwqYU8Mbny6d72ZRijrAK3iN-_w2bEd3izBIQ4XQmszi4qX5K58YcqDqR0NX8y5Y3VCWf8kfvX4n8gdjeuDOF9sjRxFywwOy6qK3u8xM-nEJPa7GhsSgrUsPjFDEhBsrzCrnyg0KGMlnYhHAfDsGhQ48gxxpN48yXYCk4qv-4NKjtR4-A",
+          "width": 2988
+        }
+      ],
+      "place_id": "ChIJJytUjlyu2EcRRhJmg0AMNvM",
+      "rating": 3.1,
+      "reference": "CoQBegAAAPAR-MVZlV36ZBzsbUMytBW1Rw5z2U1-58qej7AebtCtVJQFoV5u_hHtTTPv0me7wGvc4vnqlfyXZ924XIsXlRkxs8vLauDPZZAtQDMTzjMOHT4FjtfHZ15ZQXjGgKpK3k1DmZB4fGRZ4r6Taa-8LL0uzE-sIUIOVTQ4pIqfqov3EhDy-MrLdKdfG5DH7n1QO395GhSrSmYnC6ygo88bDyN94w99tWQ57A",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "28-70 Broadway, Bexleyheath"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.44381449999999,
+          "lng": -0.4046379999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "79a8b6a7bd1b20883466c79669454c5faf08bd4d",
+      "name": "Cineworld London - Feltham",
+      "photos": [
+        {
+          "height": 1224,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110162260024004403110/photos\">Andrej Krasuckij</a>"
+          ],
+          "photo_reference": "CmRdAAAAiEgQK9mQW_CXNHnz3u6dOAJhezm1oQ_ykp3rdmoXl-L5L2Mfk1OsbCr5RCMWzRVIcR_9BHsWKYoub4HziFuRZjtyjet7de9bxdStldSPEybdwmDSAB56GJFToPjiYMFcEhAGMNDqAXPpxrtkCkN2R5gTGhQB-KXJu5msDIeqd_ED2MJIbDvs5A",
+          "width": 1632
+        }
+      ],
+      "place_id": "ChIJOaGAL2lzdkgRQ9RcOKQv1BI",
+      "rating": 2.9,
+      "reference": "CnRtAAAAarqbRDLWlbnXKDfIQOPz2sj_kfGo5_TIReHFjNbDPAkoE6ia7BpE6Ai15svo01lItfwROJwgyVslQG3588af56Qv5--OvWT7XyvAE6G620lRWDsqnyPhQQVUQvMepDuHlifoDpdlhmDwdG8iDwpKshIQ8e7c0Dc_W8xJIFhoxIqpUBoU8r6cGls6v6X9rX9_4f03_0L9iqg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Leisuire West, Air Park Way, Feltham"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.48704109999999,
+          "lng": -0.1796355
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "15a630c79132536e705f8c572780ed3f33172b60",
+      "name": "Cineworld",
+      "photos": [
+        {
+          "height": 1164,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105641527096399315140/photos\">Sophie Routledge</a>"
+          ],
+          "photo_reference": "CmRdAAAALSmjvWH8q229Iy0sWXuXV_GmpEzpofe_LAZd9QowMEES5I13mlAOTmaRSuCGgXp_lnuxd0sMVbJLOmgItjpl1Td_yvREf9APlFBDaX1NctD9wagJB0aDDYS0oQ2oeZ7DEhAksznn34PQDK-YM7oJ2Lu-GhQmX_t7Uxc30FylOF8I6kzLxJazDA",
+          "width": 700
+        }
+      ],
+      "place_id": "ChIJ23EtSmQFdkgRkOd0vDiA_5o",
+      "rating": 3.4,
+      "reference": "CmRdAAAARdezYD777lxJO_9GPOWS0kYHFeNRp4vCSRREOy9HjHCRrF0yhz3vabAAuV9i3THTRTkYh9zaE1v1iomyMxUyZEHjJODSeASAYwLZ3_5r4Crnn0Wo4Z25QiQkzvEcshfSEhAEDgJR6DArHBvIbfL8kN3vGhQx4uOsmErzWbiFKlSTyOgyYX6rrg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "142 Fulham Road, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.49266909999999,
+          "lng": -0.2345766
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "2fa8d4729c3d55b727c99e51b1b5079a1761ed80",
+      "name": "Cineworld Cinemas - London Hammersmith",
+      "photos": [
+        {
+          "height": 1188,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114769608785788107746/photos\">Philip Fry</a>"
+          ],
+          "photo_reference": "CmRdAAAAE5WSEhAE8OQ1J_TTC-LqOua-MsIiI15Ec7pDmfzwa_3L-72ODahOTzetSK645SWN1Qah3VsLTVagxrHDDq00FBFi6UJK6Dw3yqcsghxXKY6HAu-bnz3s_xy7YQZjS6vsEhBPKgwfFDx3YIT_jkSxE8n7GhQVEzObbvWLuThXX9eFY3HZobGhhQ",
+          "width": 2082
+        }
+      ],
+      "place_id": "ChIJv0wfa7UPdkgRt8OFC5Z1wx4",
+      "rating": 2.8,
+      "reference": "CoQBeQAAADXxos8jmg0DhdZaNivW5y9-8xpHewBknhiJoUaILzZEW7wvLnRStuMeNFhueY8K7C6jDKgufA_v-ggI-0x-k1cVpzF1VXEvVSYuUFf16Rj1UoRVX0hqXt3inHbSxIt2eLXjW5SZf8CYGEUhHvAuuF_8R2ldT5A0QY_49AmEuQyuEhB8xCurec4_KtsWakjQDJSxGhSO_g2r3R4yj6lDyYBzrgq-sWslag",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "207 King Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5087316,
+          "lng": -0.1323821
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "3d658236c7d7ab37f82eeaccac47fe25fb97a039",
+      "name": "Cineworld Cinemas, London Haymarket",
+      "photos": [
+        {
+          "height": 2048,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108860826490832790838/photos\">Katie Glass</a>"
+          ],
+          "photo_reference": "CmRdAAAAKw2skcYWFPbP3_ioyQs2mo0VP_sE33Y672i6Sq-Xp9wAOxYPuOE662j4dCgYMUtB-QnUvR1gm954zGeLA9nT03FlIeuQaJTqwsWblkc-NQxcSKUWQJC7oDy4EvJVjFU0EhD1mybTdTeVcbaJVgypRMY5GhQCB-2Oz3jeGuoY0x5EmhafKIXJfw",
+          "width": 1536
+        }
+      ],
+      "place_id": "ChIJMZKOdtEEdkgRZDgFwhfgGUg",
+      "rating": 3.3,
+      "reference": "CoQBdgAAADDtSqlqRLVFHPRfQwpwTPNBqq3tNJnROCdfV9D4GhKTduo3YHJEzy0CSKeLQ_BsCQYdr_XnFgy0dhmeAtgtAZbUOAMwAuelHqykho6wT7el8uhRayU4H2O_AOUncTcC-HoCmAki6wGTjnnZp9rYK-IkIaowjXBPx__Y-z9kxUvAEhDMarWbOm9bh_2f3-gnUyfqGhTXAJGH-EvVOsssLewlEy3_6k_PKg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "63-65 Haymarket, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4539778,
+          "lng": -0.1933181
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "e8e44073300d0553d972fe99822c4175b1d87340",
+      "name": "Cineworld London - Wandsworth",
+      "photos": [
+        {
+          "height": 2652,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109478554808039106565/photos\">Adrian Carter</a>"
+          ],
+          "photo_reference": "CmRdAAAAPPU6VCPXoPdb5HvbKtZGIVc0P_yfEF0Df68Lkq2O9MrmrH75ONOOUIMfRlUfn6ZnJMuE332nwgkBWXn70srMyH6x9cgP67szQesL80lkBVguVXKTPGBi49cQFwMqkCE6EhAFCBr6amuykSKlu2GCegBrGhRk-tx9abUrKmJkejd5KXcM_KqXLA",
+          "width": 4620
+        }
+      ],
+      "place_id": "ChIJb9rJqmYPdkgR4lHkRulOWrI",
+      "rating": 3.8,
+      "reference": "CoQBcQAAAOgW5rUcslrFyMQiuA1LylxuAc-DmsYj2_vujVUt6Q0A9YppIXbhqzM10DBsIxgbCeQhiW26Hu1xoAiAP-CDO0ayjW_xO7BjXbg1SeRhPV2m6Ad8OgFaR3THwaY8wUNeeRYR7LpTsuY49WM__PAsrLBJDKFQXWOtEyQZDQ_2p50mEhCvb6GREpEGbqqgnuZnE9kdGhTAkIuJcODq0N1QixuvtQh05kvHEg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Southside Shopping Centre, Wandsworth High Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.568906,
+          "lng": -0.2275928
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "3178b5fe5d7141f2026d4eedc2a73662ebc89e92",
+      "name": "Cineworld",
+      "place_id": "ChIJ50dXf-QQdkgRKJRHUekLp0M",
+      "rating": 3.8,
+      "reference": "CmRcAAAAd80weDwxBY1trS75lXHuW29TfkzNiOz-uiZKp8lslq-rUjFuOvE4Nk7ace_QmQL9U86hDirEacfpIM1Y1wM4qLoWZoXvoJSyk7gErq3FJYWJACUZKEBJf7KGCfRWWpzEEhCzdAEbmFciXr8x1vKrI39zGhTr6cXScNwRC_gl5bOVveIRwtT3Ww",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Staples Corner Retail Park, Geron Way, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.48541939999999,
+          "lng": -0.1733711
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "e47a432a9d408a5828dfd1b022b73542186382d3",
+      "name": "Cineworld Cinemas - London Chelsea",
+      "place_id": "ChIJexMDrm8FdkgRrJ3iZDZMTE4",
+      "rating": 2.9,
+      "reference": "CoQBdQAAAPAyYAFYtOxosjdjQpMa94-4AMLKKGYjZhGBHu2gfIgB-u0BoGFPx98MiT14hs_yYwB-JiH9eZ9tgxw9Oqjz7LLMFV_REKXnm-bJGD7qQlkz2h333wnotozFd8h5gjDq7yTloK4rG-w5HajbHhVKx6qW_0h6CIFQi0vGN04q8V3rEhC_MLlzzdwaajiARP1b_SP8GhSOhJFCjAZEaqX8BDmk-WZh2kBWpg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "279 King's Road, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5030356,
+          "lng": 0.004806
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "ec5d4cffd2c79dd2add074290ec0d6d4ba13c5bc",
+      "name": "Cineworld Cinemas",
+      "photos": [
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100375251171035364430/photos\">Risvi Mohamed</a>"
+          ],
+          "photo_reference": "CmRdAAAAfjVq5fWx9XwlxhQ-rnC0MN38rZ1ds63HJDyZ1obyRInhZ6ywkSm0m7rvksf_skAbh5uVayz4ICeYCEyKxRsuHaWyyjWomyYE12yweXKvsqpM7CRqLXfvH3O6BVzjAe1oEhAaLALoVuCG7-wmLnpfK28GGhRRBHlCD0IcWy4toUCaCjBaKqwsGw",
+          "width": 3264
+        }
+      ],
+      "place_id": "ChIJq6qqyh2o2EcRc6Bs3k9PyrM",
+      "rating": 4.2,
+      "reference": "CnRlAAAA93o1uGfkeDNDeYBcESjZQRnFqLvlKR2Kk8DVSxEz9rddLsQLcINpCZMnOSaWZU21j-EwjxYrU5cAnVy_EcoBLRdb3DOgTzfvdOgQrGslbIp1831hYn4Q6KjyPHS3B_Q1w1v5VQLt6lheS3dPmAp1PhIQrmJ9fqJgzhdkVBxMUMkpWxoUWJfb8NbkpL45n6-MpJsKotsFGGA",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "London The O2, Peninsula Square, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.59454770000001,
+          "lng": -0.1075109
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "074bfb307d7bf600846742f65ab4e5dfb030d304",
+      "name": "Cineworld",
+      "photos": [
+        {
+          "height": 453,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100512645112551982002/photos\">Beloslava Asenova</a>"
+          ],
+          "photo_reference": "CmRdAAAAeZAqooSNb0vI0PEcKTaH_KftEKbaePAevMYnObZKj48g_OvO4eWc4pismyYdxnIxZixZtDIX1nXlfqHN04a4QsaWbeT7gmFh9lGLvOdpeFZgB3T0bgBuMZQb00qZCF_6EhDtTU1AQwVb8CctTCU4K6ccGhR9pFErWM_CMuFK1tH8Hgv5CZdHTA",
+          "width": 960
+        }
+      ],
+      "place_id": "ChIJiYqfXeMbdkgRVwTFHz2Q2PM",
+      "rating": 3.3,
+      "reference": "CmRdAAAAnIVRxeQkU2JXBpVTkA7uf7WA1OqaEIHZ4xfhLPRF4ytdQr0pqLSDU0wbrDxLBJx3wTlEas7Uxpb_XXvJZa5Dt09WqRXAfhLgNECYQQYra3h5rk0htSF_7F-GuoMGfi9vEhBTsI_b0qvV5Q5yYROTk14zGhS9gFTlK22QBSFcqAhcA_Mfr6YFDw",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Wood Green Shopping City, Noel Park Road, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.50786859999999,
+          "lng": -0.0225203
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "70ac2c5bced10f0a67d665c3c1e8e59519978219",
+      "name": "Cineworld Cinema",
+      "photos": [
+        {
+          "height": 720,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115076861954284504726/photos\">Anton Volkov</a>"
+          ],
+          "photo_reference": "CmRdAAAALOxZ6sPT-GlrbG3okVBqEZgIUjqlPELloxietDKi98XWCul5q9r8tJFe36HEHHRm-3StUOlITv78O9U7ys1ivFL9MjVQWsEk0LGnUVXXieIQa7hnGunFb-6PW5Or9jG4EhD6sc-LlRbHpe5g2tTPSPUiGhQx8Zjb604VLy08HhdVMtjhheBxOg",
+          "width": 960
+        }
+      ],
+      "place_id": "ChIJITdUsMcCdkgREaY2Svc0RJ8",
+      "rating": 4,
+      "reference": "CnRkAAAAyaM6mPsckOfYY71Q1D6e4A5UfpcMpks_PyVa06OmPr5nN9bQ00hno_f52_8lzg3CZnDrMqN2Ifl4xVzMoxb7YrEtB_AiBB2JRxqAlnTECzWI8qmaTVM16UQ4jz1zwPauZd2eSJxsXu1On-r6cW7alxIQtIl3ZHmbrZLGeUhznZy9GBoUM1k6Nq95j8xd3iHhGoFDnYLOJVs",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Hertsmere Road, West India Quay, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.9002014,
+          "lng": -0.2096404
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "1adc9fd97af689680d94b6475ea652af92c9d77c",
+      "name": "Cineworld Cinema",
+      "photos": [
+        {
+          "height": 1520,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111871613322902060162/photos\">Rob Shaw</a>"
+          ],
+          "photo_reference": "CmRdAAAAiOPFdedAhABpprFDGytF0gMda9c_saqHLy6LrEZ3ORKZQLE_8P-AQ8QICAGJvkhhvBTC38vtqnBdOxursBgMJRwThPrfcvH_7Cs2J_s8GZNJbtxUgXV6ZjaHOV1P-l8wEhAs5ACIWFhbBaq_dqTPVk1cGhTns4hORU0mO-dmfh21Ymus8eE1rw",
+          "width": 2688
+        }
+      ],
+      "place_id": "ChIJbfElVckxdkgRZH2A-SLg9dM",
+      "rating": 3.3,
+      "reference": "CnRkAAAA0StYXhlVOowB7owqJquiiv6_5WG0FVVKWJBfFSdSYwE0RaZSGHulCaI4qWdm1CJfYNmWDlxhg9Krl372-TX6gKi0GNcFskk9pSjY8wjDFSTSHwf3ZHPw9x7BA9cDzsrerHrqc6EgxRvYPQvJOpDohRIQvCVfHkgkHAzAJMkr97wBEBoUPhWA1_QfonIt8AjwvoWx7BKsAnk",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Stevenage Leisure Park, Kings Way, Stevenage"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.78472000000001,
+          "lng": 0.1093625
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "398a8dd1e0f388190e6ead9d46d550ff2cb20806",
+      "name": "Cineworld Cinemas",
+      "place_id": "ChIJl63P4O2b2EcRZU27vfMSsas",
+      "rating": 3.7,
+      "reference": "CnRlAAAAS-djuhoQD1R6ROt8AO134_WdZfQrKPqj7ufOfRiu0vEoTRshZPeA0SWIJvUHz6rHNPzHUzdX6MXi7W7Tqg6RP5RToflez0RujwCtZOd3p7C1MEbZkHvUyb8E410BI4g4XgLykfW9ugp0ewd28Hed4BIQyTTZtUsoXpjkV0sLfHtilxoU78dPzlTufoNP6no96S4ziMaXNaw",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "The Queensgate Centre, Edinburgh Way, Harlow"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.8817167,
+          "lng": -0.4180678
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "2c9544726d1d5a0f397877b974e45069991d2530",
+      "name": "Cineworld Cinemas - Luton",
+      "place_id": "ChIJg5BrNUVIdkgRljeR-Uo1MYg",
+      "rating": 3.3,
+      "reference": "CnRtAAAAY4QvRC-eNJc4bgVXSPWjq4nrql-lsPFP3KacLkJH9rwCKcq7wMiNvKdMUj24EsGvKDN82_Sa49Jg0mn2Ejws2VyXKpZEtDTuOnmzpLxpfvlnIOUMXHA6_ONYooJg4s9KBXKq4MDuz7hmbLOXkI9B2RIQVNELIXVKWYZZt8P2bTlmxRoUmzLFlvt1pxqAlLK5KMERtQzyYso",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "The Galaxy Centre, Bridge Street, Luton"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.12094219999999,
+          "lng": -0.1892986
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "452ea4364f7e7507ab84f06a998d090f81398fb9",
+      "name": "Cineworld Cinemas - Crawley",
+      "place_id": "ChIJxZ1OAirudUgRMAHIqYq8YSI",
+      "rating": 4.1,
+      "reference": "CnRuAAAAOdgOsqyYjknO7M6KkWJ07oEpNZOWkU4vfGolJX9jdO8ow9WtmHOvfmOF2qGxBt_gP4Pd_1mYH85IrtYjDip87qsd_34XC-eqYiPFmHElJTXxboYQ5xORHyRFqm8dgMtG_tPEoBI6TPW1pPFfTp8ZqxIQNrcaE2G33sxFQb3VTkzXDBoUPyoFh1Lmk17v2GFdmYPXjmqOFUk",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Unit 1 Crawley Leisure Park, London Road, Crawley"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.6499209,
+          "lng": -0.06055439999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "cbc71d1f9ea97e540156ebdb5cbd2e986896c060",
+      "name": "Cineworld Cinemas",
+      "photos": [
+        {
+          "height": 3040,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101171717747108907884/photos\">Anders Jacobsen</a>"
+          ],
+          "photo_reference": "CmRdAAAAQyNindtEiQYNFeLPBVXmHMwbSvxCa07XX84cidDGDDhoWs5iSQF1yaVnl2APg0cs56MUWo7BSYFFgiYVBEAw2cu7WPqeOBaCjc_hjySiwEnLOhMHegghR57DhrerbHPgEhDYdExBs-XHY4nbf99kGGi3GhSAqx8eYxLuY3HKVVpNpwvljC8JWg",
+          "width": 4096
+        }
+      ],
+      "place_id": "ChIJS2BJ9RkfdkgRFE4g19QFjLU",
+      "rating": 3.6,
+      "reference": "CnRlAAAACxt5MznTI0NwFgLRXRFs3fch1Awey_VZJRBcoAgoTImD_s2otust6yMs05sJuk5xSiJSGjKQLj2YNQJtLNRCJFDnxAp9m9chA0Lf36FegndR_AQ5gkDJO009IC1fLkwBSRZLQDD5Bgq4wCSpe-evlRIQLIkwL3Cxi-KBZjFyBMAQnxoULUVI3x9yJugg2ddWVY0JZI9933U",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Southbury Leisure Park, 208 Southbury Road, Enfield"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.55642040000001,
+          "lng": -0.2836685999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "f4b27680ccb31f739afd5235135e2ab63ae0572e",
+      "name": "Cineworld",
+      "photos": [
+        {
+          "height": 1746,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108126152707736605141/photos\">Khan</a>"
+          ],
+          "photo_reference": "CmRdAAAAiUM0cZ4nBqhiYQdEu_pHsD4tPqIOWQpBHhPfFt-fE_CN0F4tcJhbW1CMvGFulx6vBYgTUWs5zk1qB2xsyzP9ONmy9lgUj_j34uwBr8JBbI8VviHCLs3MIRFo2s6SY_5tEhDAIcrwo56VchpMDBPfBeN3GhR0jPVk_CW7Kx1hrancPDIsAk6BPg",
+          "width": 3104
+        }
+      ],
+      "place_id": "ChIJSXgbB4ARdkgRyyFiHelu-Uc",
+      "rating": 4.2,
+      "reference": "CmRcAAAA9jKkL16fxD93PjwnYJ0q8BQKDMQwmcg_cTqL42xYzzPytYd1nC2gjnld71ry1yCGK6pA0SZktbSmtxTxuWkdmGpewL-dP98MsSx-ulS8THqyBIBxilfiQG8yTqIL54w3EhAZuRVBDfjoiwsmm4ELNi6QGhR81Co8q1XHB8kk2ZraK_S-8ZpcaQ",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "107, Designer Outlet, Wembley Park Boulevard, London, Wembley"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5577717,
+          "lng": 0.07386150000000001
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "85ce2da57c7e8e74f6c9390d83e1791cbe00c9b4",
+      "name": "Cineworld Multiplex Cinema",
+      "place_id": "ChIJZ1XAeoqm2EcRBs-yVi9Beyo",
+      "rating": 2.9,
+      "reference": "CnRtAAAAX6i1X1I6fzTSZWiYdmmsbtRD68_tBwpIVYievzWRU1NMtMC4TJ1knZ9xg5JbpGKCbAWxH5U69ojZELBVDw0GsUXluZgrQMqOGVfrAmikJmp9Xv11fvd6jgCBHSPyhbpR6MLtdPNPtDrd8iU0Fp2xQRIQ9rWSuk0edNQbyERc01V9eRoUImAngrIfViUpECAsb_SSJQPBqD4",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Clements Road, Ilford"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.63115499999999,
+          "lng": -0.7556399999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "c5f43855ff8e0be54d13c6287e3c5a581c58ee82",
+      "name": "Cineworld Cinema",
+      "place_id": "ChIJE79VAtdhdkgRaJBRaRvUyhE",
+      "rating": 3.9,
+      "reference": "CnRjAAAAzxWslEHYrkWgGs2jYs8Xfu2YHgfcFuDJoUNKqsmDMn5ISH9nAmztyEVGmhY6HbsflxdSyNpFbB_AICKsfqPwRO8hGNeEjSTkSQ4GANbCcASLinloHC6W7ixPv8VZks-2eWz2UqWktIW5JD8iFHFMMxIQqqahS4mb3mcVr_EZAQVZmhoUGPmappjbjZCspkp-NxYaJ_lkepg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Denmark Street, Eden, High Wycombe"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.2499395,
+          "lng": -0.7684091
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "f835ccaecf13702015dab28d475f33f22a8a4f51",
+      "name": "Cineworld Cinemas Aldershot",
+      "place_id": "ChIJu7jFsLwsdEgRMpkZlnW7aDQ",
+      "rating": 3.9,
+      "reference": "CnRuAAAAvkHqLkWvMiN2JibbH38grBYqUZ1svt4D_wneB_mTyp_qdzQUwn0V9F5keGUR4-okB5DStYxrRhYlqElCRZXNTQlQ4aZ7YcUFtBZ6-0rM88MgE_Dk6UIpa4x_h2bHLxVdbxMkodpEm4ImYTdTVhyuGBIQeB9cO9nB-7PP5KPcWeyWsBoU77io6nagilLNeyxZ1AG0wqnJ2Mo",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Westgate, Aldershot"
+    }
+  ],
+  "status": "OK"
+}

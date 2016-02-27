@@ -1,16 +1,16 @@
 "use strict";
 
-let CineworldScheduleController = require('../controllers/cineworld-schedule-controller.js'),
+let CineworldScheduleController = require('../../controllers/cineworld-schedule-controller.js'),
 	chai = require('chai'),
 	sinon = require('sinon'),
-	request = require('../services/request-service.js'),
+	request = require('../../services/request-service.js'),
 	fs = require('fs'),
 	expect = chai.expect;
 
 describe('CineworldScheduleController', function(){
 	let scheduleController;
 	function mockGetRequest (){
-		let file = './data/cineworld.html',
+		let file = '../data/cineworld.html',
 			content = fs.readFileSync(file, 'utf8');
 		return new Promise(function(resolve, reject){
 			resolve(content);
@@ -18,7 +18,7 @@ describe('CineworldScheduleController', function(){
 	}
 
 	function mockPostRequest (){
-		let file = './data/cineworld-response.html',
+		let file = '../data/cineworld-response.html',
 			content = fs.readFileSync(file, 'utf8');
 		return new Promise(function(resolve, reject){
 			resolve(content);

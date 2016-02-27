@@ -1,0 +1,190 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 51.41986799999999,
+                    "lng": -0.204856
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+            "id": "bceb4a2065f662014af3eb2a7fb90809baf7cb0a",
+            "name": "Odeon",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 400,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116554166950947515117/photos\">Julian Hardy</a>"
+                    ],
+                    "photo_reference": "CmRdAAAA6CaB89LrpJ1Rg2XQDp3nKZtMsu2mySFZ3U2XqnqOCAuM6_5-m3zeBeBC96Q4AXVHK_wkMiuGYCRcFSEz4hOVcQBcdUE2FvNd2PayDJxVU4TlVHt6fYCgUKcdRM5JlKZZEhBwSZcjt663u3T-elkgq2GLGhT2kzPQrx1zDksVnSiqRn9Utg_x9Q",
+                    "width": 600
+                }
+            ],
+            "place_id": "ChIJA_jO-LkIdkgR_g-lQLTjVaI",
+            "rating": 3.6,
+            "reference": "CmRZAAAAcj4EP6pVVuFPV1xNngrDuwv3IajSevZDg8UivoKV_PAr2FBqTuqhIKsOr4B5D5nKfDHD2D-2jboUncqomaH-CwrXKvkXc3VoAWjO351f58yd6tEWbvSS5gciACKyCyT9EhBz48uOSzQSU7Yl8hwgRTduGhSSAZGd8Q08fwU2z4u-26UG8E9MZw",
+            "scope": "GOOGLE",
+            "types": [
+                "movie_theater",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "39 The Broadway, London"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 51.5204809,
+                    "lng": -0.7228110999999999
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+            "id": "6625a9d21c48cb410584ff7ef238edc2d57894a2",
+            "name": "Odeon Cinema Maidenhead",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 300,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112051259302867599742/photos\">Odeon Cinema Maidenhead</a>"
+                    ],
+                    "photo_reference": "CmRdAAAAbr9LLRMbIM_9czz2LyoPizUKOCG3NOBDBRcVdfG8QZUYI7RBnkhxyEoncCHAuBLlcgLbWK_wYojOkE9Ac-F9RpoqArovYlZejrZBGVuwOSoWsVPaD4HPhPMjCtpDTUOmEhB-ikh0BQ7YGFLZpl6XFszIGhTm8jyACwyedEy03QOiGZB9cVFbYA",
+                    "width": 300
+                }
+            ],
+            "place_id": "ChIJvY6fSs5idkgROwpKHFlNpSg",
+            "rating": 4.4,
+            "reference": "CnRqAAAAM8-N4fUpwF6bK3pMcKpTR5zbkv0E7fymL1G8NkZls42F2KrHsq7oPcF3aymRMYyz6qBPTdi5PdhzSM6SVy9x8wTTKW7h3cadEJsO0ztrAoQkGxG382d0ElARXHoEeTQs1XrawvPUHaoEDpFXDebZdhIQIWamxdfSxMcab9jbLrGLIxoU26FJgxC9SuYcf_IYsEreFhTCZo4",
+            "scope": "GOOGLE",
+            "types": [
+                "movie_theater",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "42-44 King Street, Maidenhead"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 51.532569,
+                    "lng": 0.135887
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+            "id": "efc2d29dd63cbe8514a16b2132488235a4db59fe",
+            "name": "Vue Cinemas",
+            "photos": [
+                {
+                    "height": 100,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102964697141680422980/photos\">Vue Cinemas</a>"
+                    ],
+                    "photo_reference": "CmRcAAAAnbD1ORXRAKlWEtP9E8KNxSZJ915KV_VZj4g-f-CDFaf8y5ENxL40erX-b6jsAMwYt7rhoYfcU4CQemgCJHDERMiDpJceLUM9xEp6WHbtPok5-BfmNvmXzhsCLFtQgKEDEhApsMSzO24W3NJjl2OaSGbfGhRtOxKA9pbtap_2M6xgonBG73G9BQ",
+                    "width": 228
+                }
+            ],
+            "place_id": "ChIJnbG7z56l2EcRgkkzHktzC-A",
+            "rating": 3.9,
+            "reference": "CmRfAAAAsihEpM1IQjo04CtgAlDtrlUStkGBSslgl3_fU69N1_mD2uYDOmd-kGxv5LLCkFImW3S52LYI3nAYbUTAkh52ayG8nAnLfffUQ3GCknvH71b5pX0AMwOm4olE2aNWMC6CEhCijwPb8VX2drVkXoyR4UPyGhTL4963Qzir0X_GsVefCvwf-YRavw",
+            "scope": "GOOGLE",
+            "types": [
+                "movie_theater",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Leisure Park, Cook Road, Dagenham"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 51.510946,
+                    "lng": -0.1304952
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+            "id": "8989b4948cecd695ddec279a52b2f69cba1a2ce6",
+            "name": "Empire Leicester Square",
+            "photos": [
+                {
+                    "height": 2048,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104259443862379278732/photos\">John Holiday</a>"
+                    ],
+                    "photo_reference": "CmRdAAAAc4Q8WOSX1erEWHpYzwqpPQ8XKr9hGY0eCadXTN6LvUEJ3KxRWsWqDlUYfF_CtbMAAQVnQ1JT1mALrnpQpLpYoBlXILyrYmxjfrsdvJ1sGamx3gV6YQp3dTKHyS_RzqKNEhA52pHIM3Prw4NLJ-7PCGV4GhQIpRZ1CJqUIet3t9SJpFK_HgsKDA",
+                    "width": 1536
+                }
+            ],
+            "place_id": "ChIJhSP9BdIEdkgRcQo22TpPw8k",
+            "rating": 4.3,
+            "reference": "CnRrAAAAuYyzQG-J0C6iQYBRQGg15aXfICf5eBRZXvsqqO7T9v_JELRxX4YCX7x9ymP6mIUFlW2cMBvvFZA3wrQJWYcyLbL7waEnOV_GEW1MQVdwPuSByyprZCn0vuCZLX6tfax1c67bNgiSJ2J2GkBoudf1ShIQWr4djRUWkmM5ZMrhjyh01xoUeX_ir9dKmvQaXXCDzuhvQSPyzlc",
+            "scope": "GOOGLE",
+            "types": [
+                "movie_theater",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "5-6 Leicester Square, London"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 51.5944862,
+                    "lng": 0.0229844
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+            "id": "b6e1f87ee4d5973d4a6084b13268731cecc2b0f9",
+            "name": "Odeon Cinema South Woodford",
+            "photos": [
+                {
+                    "height": 648,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112169914510915322816/photos\">Paul Cordrey</a>"
+                    ],
+                    "photo_reference": "CmRdAAAAgAmaaoMoytFJX0zg8FOA8gEiy9MgwesPmRJg2scLToPgF3ZzVgyFa3-YjAKsjo-yNX8dg0dVMs0_SXCTrhcMnnb0haCblW4m-XujA57XN-Fq9QeVE-HrMNR9YJjZ-hCvEhBJNVeBbTmKS7CGsNaQlo0AGhQBl6uZExheWiAPSppquYX_3RZxoQ",
+                    "width": 1152
+                }
+            ],
+            "place_id": "ChIJXcOgBUqn2EcR84PBIuKi4_s",
+            "rating": 3.6,
+            "reference": "CnRvAAAAMuHmKrgTbCvbG9W2qza-0gUtuiPzRazVB0L-9gFouNrxF63yNXgSy2Legm6jSlYaSpUEmVGwKDSgmklEVnzhJEv7l8lifTCIYfcY52HDiBocTHj4w_BFmcHa21ydQK5ALlmHSl6cRdusTNYd9wqf3hIQnwZjTj_wE9nDAsuuDO8wmRoUoOnAdKzWalQTAjgNM3hPQEHd9YI",
+            "scope": "GOOGLE",
+            "types": [
+                "movie_theater",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "60-64 High Road, London"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 51.51268559999999,
+                    "lng": -0.3077949999999999
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+            "id": "3bb4574a34bc73c3e3dfab0b6b918e70a076ad82",
+            "name": "Cineworld",
+            "permanently_closed": true,
+            "place_id": "ChIJ5QFcwooNdkgRp5J8Os9VjM0",
+            "reference": "CmRdAAAAZYYLTGxvHfMtVu7_PbMEpJk9ug-G5VrnrMX4PJeL2011kTvdQyoEoISKCqnRe828NTjV-HVlITp2cZjpm68PHN08MnSM-iiuRGTrJfi_nhr_ZMaG57E1ci53I9W0--vyEhB0lCnm1RFy4ACYDLdY2z1nGhRuOSWoOWvwHdNMp0mkre6JmRWFKQ",
+            "scope": "GOOGLE",
+            "types": [
+                "movie_theater",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "61 New Broadway, London"
+        }
+    ],
+    "status": "OK"
+}

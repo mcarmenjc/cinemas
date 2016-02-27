@@ -1,0 +1,597 @@
+{
+  "html_attributions": [],
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.86729740000001,
+          "lng": 0.1627028
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "9dc41050ca4f5294f47ac70c12085b366051bd98",
+      "name": "Empire Cinemas Bishops Stortford",
+      "photos": [
+        {
+          "height": 500,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103388011435986789669/photos\">Empire Cinemas Bishops Stortford</a>"
+          ],
+          "photo_reference": "CmRdAAAA54N18PXfCg69lWIB2QgSgcr1hKSYXNKFpZ6BtTHWXVaw8CL575B8pYVFw6tz-35-XFlFPyVvetlZad_lkZx4xERkF2I134ISXKQKdvc_968kr0qAKWMo3e-XZ7OSO_DgEhCcajf5ZtS96gqgYU9ADbAFGhRwRiONSsYkItPQzu3Bglz7eGzE2A",
+          "width": 500
+        }
+      ],
+      "place_id": "ChIJkxxHODmF2EcRY3VjeTTRXSk",
+      "rating": 3.8,
+      "reference": "CoQBcwAAAPQ5IaCCE9rERDO7l6IOd2gp29qqJgFFTXvhq-ja8SiXZaGk1Q-RHF7Mwxy9nmOH8X2sf9md7fhLC9Y6tJfHSgUen4RmEE7GSWWAx3IRB9RXIlV5nuFLzBzk-EvKB7jAZ7MKUIrW-J6ZR2U0A5DEo7Q55J6pqZKpy-T4DwJT59xsEhDirKpcnld0o8RYU2-cpM_OGhTOirQK0ZOmXzpvHnjDy06AxGtc3Q",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Anchor Street, Bishop Stortford"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5849925,
+          "lng": -0.0200261
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "49710a2f9b4d67228baea960bd930b2f2437ead4",
+      "name": "Empire Cinemas Walthamstow",
+      "photos": [
+        {
+          "height": 557,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109399851701271665629/photos\">Empire Cinemas Walthamstow</a>"
+          ],
+          "photo_reference": "CmRdAAAAOY6sTeq_aUcDwZA4M1nb2NT6L9CYdT4ZMY46l3sXNfmlGoWlLgea_5JHxFtES6LpBNRUEVpv0wFrw6p2yMNRZ6P--_8-Yda-IAGTKjWXHMzUG1QvF4J675EmJF-n_bBkEhDAczMBtDhTXsFE7X96wiz0GhSGoYBByOwjWw-ZFOFWm_60Obs0yQ",
+          "width": 931
+        }
+      ],
+      "place_id": "ChIJa9FIDOkddkgReq8hKMk_-14",
+      "rating": 4.6,
+      "reference": "CnRtAAAAQtEii8NVm9Bt-LqYGFcL1PQCLvzu0WVgED8D0t6nDk4lDEqJrZquEUExVD4X1M8F6s1zTYJz1y-FPjGHe9CX_3mhlRWUUJS624tATBqMZI5srpvTb4QnBUxXBT8iRfZyf1J65H5oB7vjIZz-E4P9PBIQ4_xL-FVoSU_9SIwTlppFrxoU9ffMSymqXuBspCIT_L2jKBwKiIE",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "267 High Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.437824,
+          "lng": -0.898089
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "718dc260582484d8ce3170d98df3a76072d86317",
+      "name": "Showcase Cinemas",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 947,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111429266416460652345/photos\">C Yagmur</a>"
+          ],
+          "photo_reference": "CmRdAAAA7rZJKXh0xBSirOKOf1MkCaIcyRsixBJtP5W42Ofpicy2uDyN23wjaO6OSuxvCZs9UiP00z5odRAlcExVBf5UjtRhSoJhLgGQQ6XyYEJBTCX-FkzkJ5rk5mXqW63FDsMZEhBEpgmpff-qTZ8HBSElXqXYGhTZP7zR7N1tjTO4Zc-2z7UNIdQC0Q",
+          "width": 1268
+        }
+      ],
+      "place_id": "ChIJLRRtAPWDdkgRCjKl-ctd2PQ",
+      "rating": 4,
+      "reference": "CnRkAAAAhy7ER2D-YMnSdu4xMLLYhiNW5Bf9oXdCZPxADwe5ygQgmh0fv3dqVX5peOhXWZc8aj4xnnsZp9dcyAKyp5q1P4WshrFs999d1NB3kMdvOv_mYZKBiBRjb64P9bLHhMdysJvYN7N3C0Q-NCba9wsVihIQLbV5zg7dUb0zCxAB0gkr_xoUS3C-wiwqwtoYq9NwNxmZBXfIn-4",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Reading Road, Winnersh, Wokingham"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4592515,
+          "lng": -0.3070045
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "8d2284465df41e4ee774cdc8efd82a60d89ecadc",
+      "name": "Curzon Richmond",
+      "photos": [
+        {
+          "height": 722,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107631835498991715168/photos\">Richmond Filmhouse</a>"
+          ],
+          "photo_reference": "CmRdAAAAXJK46k2_wIimNgL9Dd0MGrnvpH_OmNe2xrRINXA5axvKtGy_8U58DmP8H2w0dlN4Zue8_u5n2LjL6iwpfP8eUtVOwFYAc7RilFPi4sSKiFizIWf-HRbRcJyzpMqZ5R-CEhDBYr3hpzPQv1_fXXH3V3HhGhTyNWF8jg4-xzuEwVh1QNLylfnxkg",
+          "width": 480
+        }
+      ],
+      "place_id": "ChIJDeGlH2IMdkgRgNY8wJ-NeTM",
+      "rating": 4,
+      "reference": "CnRiAAAAyeA9rog9bC_mUpqRzLK8Ri8ZlwxPc5Gx2xsIXwrEs76afmIoEPBfAlf9tdisVblUzeAb-j5wE7GtBiQeilTo4b-_p2mGraAbMMioT36UYktgi3DZq5Xvu55xGysequmaqb7NRmFxFGNn0AbONjO3MBIQXt2yON-0MPNcSf4Soh0Q9xoUXjViyE_BqpHKZY6rj1v34hsFySw",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Water Lane, Richmond"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.6499209,
+          "lng": -0.06055439999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "cbc71d1f9ea97e540156ebdb5cbd2e986896c060",
+      "name": "Cineworld Cinemas",
+      "photos": [
+        {
+          "height": 3040,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101171717747108907884/photos\">Anders Jacobsen</a>"
+          ],
+          "photo_reference": "CmRdAAAATYc5a-w70KSm9twieyrf8gBTzg8kA_hvK82aKNLoQdBNb47ly0Tmryt4rah1Irn21BH5awF1beu_pGijTRAXv2GefbKC2ib7gkqB5U7tEac1quJ7SZfL2V0h23GRQO3uEhB7Voh1k_ULchaVAbK4sPwPGhToXtqQP7hGu0pJgdcea1Gtap5VIg",
+          "width": 4096
+        }
+      ],
+      "place_id": "ChIJS2BJ9RkfdkgRFE4g19QFjLU",
+      "rating": 3.6,
+      "reference": "CnRlAAAA1AKQgOxz8RR1vP0vUELDKgtiopUpeAyMOyDDKXmYk887LLOarWGbyaltHKE2okwXunSenq1Jd8kYvIVY0h6orlu3xg384YtgEzrTKFW4ha7mIv13IwkzEzDXKt8pcm1peE5qheM8y02r146qSPxUjhIQ-zvRUNh3zqHmHWlN4COcoBoUjQziCBmlTm9UZblCZHvWPs1ffB4",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Southbury Leisure Park, 208 Southbury Road, Enfield"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.47084,
+          "lng": -0.06827899999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "d600c97dbc76f4989825cc0147a9553a5279e67d",
+      "name": "Peckhamplex",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 3864,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103224740146620243576/photos\">Peckhamplex</a>"
+          ],
+          "photo_reference": "CmRdAAAA7gHFBN8RcKBDn0cy18RuYoNemigimpf5JE1YlfCdIAcZhcPMyi8i0lIPXmIUao372qRxjTnzxOyms-0eH9vrtc221L11pJy7f09gXdh6znxPVb7s2SCYZxMLaYFsKXM7EhBZ6o__1WTcQshCjZyFdcrWGhSbvLwVJFspDYR4YhfAcICY-T_9yA",
+          "width": 5152
+        }
+      ],
+      "place_id": "ChIJO4rSTqADdkgRWXF0GwEEESg",
+      "rating": 4.1,
+      "reference": "CmReAAAAnftLEyqlCTeZdhfWzXn6dJnUDCQrrpS4B_AWLRMZ9Y05DxX4cwjY2hu2LcLFGh5C__KU0HlqDgqCBX2flvCQ_XbN4eCW_72jMjPZcffMIkqwRBrBRzTZRzYSCokX1LWkEhA_yXP5tWSXmRT0XvvvpMpuGhRS3oaSaILRkcg7ziU86OFd1p88BQ",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "95A Rye Lane, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.63115499999999,
+          "lng": -0.7556399999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "c5f43855ff8e0be54d13c6287e3c5a581c58ee82",
+      "name": "Cineworld Cinema",
+      "place_id": "ChIJE79VAtdhdkgRaJBRaRvUyhE",
+      "rating": 3.9,
+      "reference": "CnRjAAAAbpb0dzFc5YyR9JnH0fnAVl9HV8ANIOi3N7YLdVMmMwpUTI_301OVz8Bt3E_LamX1NlVob5R-JDZjgfc-OIrDP5QCrXiditUNVcD5OXXbRuavJ1aI_UuH_ZNPRhibsakMz1Gg32gES_vvZoWoTe84DxIQQPrz0bvfMFWLPz7Kt3PYphoUyMf2ukgtk6Wu8qOtahSzWU160pw",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Denmark Street, Eden, High Wycombe"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.521115,
+          "lng": -0.0511071
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "25d5a704a2241eec82e92eaa1e3e7dadffc2b1de",
+      "name": "Genesis Cinema",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 299,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115601587920102800756/photos\">Genesis Cinema</a>"
+          ],
+          "photo_reference": "CmRdAAAA2oNe6Xlz-zIVq66_1_fbzMaa6xBQlWVxzo0lo6_fhTwUeiH4gTRcmBI3f56MRl8PwyDWlpMn-mf2UDV6vPVUVmupyOadi1LLRMdZp5DfzrXW1VwX0Ydpzxhf3q7GjbR_EhD46thCS4b9XXmlsd72DbTiGhR6UY2W5pKbg-brO5O2OzCF5zOejA",
+          "width": 567
+        }
+      ],
+      "place_id": "ChIJ9yIOl9YcdkgRFnIx9hqT4gM",
+      "rating": 4.4,
+      "reference": "CnRhAAAAvlr1rZi-ydgkzwIlbmVrpvZqO4hOhl8gQqt8wE-oaCrPq8d1SpVTSY3QpwqvguUJ1gAhsS0m-9u1JOBmHb0qotLL2cP-oJd45GhykaTQqymfjLYIilEzrksnP3i8WKHDXog1Xnbd5aKavOy-gJPF7hIQttfug6Fc-xpeL13LK_r_6RoUuo6tJ1zphssxqSzuQ8tjgpaJUlc",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "cafe",
+        "bar",
+        "art_gallery",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "93-95 Mile End Road, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5793475,
+          "lng": 0.185697
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "9b114e6293cdd7cd9b73a36ed9e4c3d010a92f54",
+      "name": "Premiere Cinemas",
+      "place_id": "ChIJKfezdLWk2EcRiGELRd6pWmU",
+      "rating": 4.5,
+      "reference": "CnRjAAAAiNG9g3zmNtiTMTdwLX1vCTWRsaO0DpQ34tOwPd6mkZULjfTvRuiJo7SlVUJ_ak47Z9RaXldTA9xLjatP5uIvRXZP100k2ByBrQAeCd9Q3OYTIYealRvzBR8aFq4JHJ1w_iXcrIhn-jOaumgHrJs17xIQMAp8sDNV8bB3hj4oMCectRoUGVC3_g5k8kXTncmLbgUHXvrJCvc",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Mercury Mall, Mercury Gardens, Romford"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4881353,
+          "lng": -0.1673805
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "d4124d594565553725c54449c653fa7bf0feb95c",
+      "name": "Curzon Chelsea",
+      "place_id": "ChIJ4VGyhmwFdkgRPldaqdCsOxw",
+      "rating": 4,
+      "reference": "CnRhAAAAEbhss3G3MvkFPiyX8ETmHUcKwzo1sRaJgCyNLKfMgSCYuv4qZv7k2PIhomM2yrVfgoaorLQV62VQw2mDsc7ie22Dit26jqoVinDMWghP9vJ2U78LQBXWQzLKuwe0t-NhplI7YP94oLHfCIC90uu5WRIQ45hhqJJElDskjIy31SEPNhoU3mSuSdF0nMttdXLd3aTy9WyryxQ",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "206 King's Road, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.7479352,
+          "lng": -0.3325751000000001
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "a145c764d72dcf7a7f2492431d68237f6de1c062",
+      "name": "The Odyssey Cinema",
+      "photos": [
+        {
+          "height": 2400,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102788929287493843817/photos\">The Odyssey Cinema</a>"
+          ],
+          "photo_reference": "CmRdAAAAVZP_nfF9niCZdOjor5alai-pdGt0KAc0yu8f7ZNsdcQa__K8we2uGRxktf1OilEpAqP1YMByN6kBG1vODhUqPcmtKsF4dYwZe5U-NgdDYrD1hdQW38dRMOgZmkTHyZa3EhDNX84IwiFRhvtBBldAedymGhQnXM3iNnwqEnHRynZ-zDZw5Lq_zA",
+          "width": 3600
+        }
+      ],
+      "place_id": "ChIJJXHydiA_dkgRkaI_zm-vKJI",
+      "rating": 4.9,
+      "reference": "CnRmAAAAJ4_4bpnOQdr0-hqe561wqQ4hGDXKXpihpL1mlL8Bub9JpQEW1lFM9biqlJ09h3GvmszrOLa7jtGoj80gsyI5k_YTkY8xYstSIJDqczcAsH-3IRthJnuKBatvfyHyY-crF1ASFVsNsR4YGclhsOLAtxIQPVvJdSqxRSLPZRt78JrIdxoUg5tQG_E_mKsnrGOjGD-BVRPJTs0",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "166 London Road, St Albans"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5065045,
+          "lng": -0.1478882
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "6bfa80a3a422fd6fab914429f6304759dc8b8faa",
+      "name": "Curzon Mayfair Cinema",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 410,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112007140187783659397/photos\">Curzon Mayfair cinema</a>"
+          ],
+          "photo_reference": "CmRdAAAATpm2UcOvGnqJgEszpZZB0vmfcIHMW9zMyNCov7D7vX2qIbEZrwafjhKQgtFwItMXFMJKe2u5T8Z2xs0BkpDWJaxlG0evPgLAeuWNT2MWDqCVcbFK6Xxzczpa19b28MENEhD3CqEAIOznMmThoa1Zc71TGhRtYO4nZXFsTw-K25Ng5WTtAZj8Gw",
+          "width": 594
+        }
+      ],
+      "place_id": "ChIJlXAEIy8FdkgR1qaSOxyAsfc",
+      "rating": 4.6,
+      "reference": "CnRpAAAAlmOuw3v3xTXRLMEJ9Gm6OE1nO0JYFvZpEogkcrc5NrADIj0OSWKbNOS0s7fYLIq_KLuBiRe9aQJDqh-4Tbc9ZVsKmxWHgAVRNERPX6JSjvEuDF6kHvGHPR9tbZkk235I3HTJIEpk_p_04MVLISdoZRIQOx5bKgsHjN156RElHLq9zBoUJoPc5qxueyz53WnU5bhOex4z4lc",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "38 Curzon Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.2499395,
+          "lng": -0.7684091
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "f835ccaecf13702015dab28d475f33f22a8a4f51",
+      "name": "Cineworld Cinemas Aldershot",
+      "place_id": "ChIJu7jFsLwsdEgRMpkZlnW7aDQ",
+      "rating": 3.9,
+      "reference": "CnRuAAAAm84JbKDa2D3bnY34g36NNcIHYrw-Z6onc0LJXq2zn-W4TPY5v-ihScGW-cHWcMFrxHDuurRF7w7ZlXT2YCD5w6V54yVtx8Ke-ZosXY6GiV2OA3TDqV96cFeM7DpZeJiT3ysWg6ThT5kHYqv68VZwhhIQ4ZUaEmhbn4Xj3qw0Y7FGoBoU0PaBVs_wyWFI5TTWqAnA-4ckMOM",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Westgate, Aldershot"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.9773065,
+          "lng": -0.2286349
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "a541a756b74c28d9823a8163eb379b78491e52d8",
+      "name": "Broadway Cinema",
+      "photos": [
+        {
+          "height": 998,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103375073067854309192/photos\">Broadway Cinema</a>"
+          ],
+          "photo_reference": "CmRdAAAAvE9yEKu9tMf46GYhsx7_2PhnQ6_w4ZtqmjOnL1cU_BlLGY-mwcNeQIHUlABqKkFUox15IG3zJrIWpD74GiXH505S8a8YcGtTekPAs5FtTSDAE-sIHz_gpapyx3aIxZI0EhAK5PJVfdvfxXVhGZb8d7kJGhSpNO9Y85lWGOURp3Bt3DAX_Lv2FA",
+          "width": 1456
+        }
+      ],
+      "place_id": "ChIJNxiA6FcydkgRuqZhMnKJOqg",
+      "rating": 4.9,
+      "reference": "CnRjAAAAx9FeXY5fHR6ui53Ra0s7_rWj5KxVUrqZyxlurhNzu4FkK0zkvITwfbEBwlQzP14Mo8rAn4tzYT7ZqY-_8qqyLK5nxsrxL8x-2ILkEnMNHMqYJ5AmrNgl2PIuZO4pTzx3l9tW6S5RPLIUfwvyIeBhqBIQOIOrF1fXQaZZV1v0fmLeuRoUsitiY2Lw3C9CQQqkwPx0X3DfeCo",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Eastcheap, Letchworth Garden City"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.5447022,
+          "lng": -0.05489840000000001
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "0237f18258d96c9090d6f7d3f01b80334bd2c523",
+      "name": "Hackney Picturehouse",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": []
+      },
+      "photos": [
+        {
+          "height": 949,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104381448880295920589/photos\">Caterina Reed</a>"
+          ],
+          "photo_reference": "CmRdAAAAmiQDSKbya8_QRoLL4DbdD8PFbzCb5CEXbtfEHFDGNOTEc3PQCjxibQ9XIEdr8TwM8uz0hXydBx6Q4QdZSbnMM5aB3z5wE8i7L_kmU0Wq0bx1f7gqR913tiK4iKGpz9x9EhDVkvr06yWK0Nd5VZFbmrbBGhRU61inZa5OdmBAx1bNdp084YPs0A",
+          "width": 1265
+        }
+      ],
+      "place_id": "ChIJ-b9h-uQcdkgR6cVkkHcXw0c",
+      "rating": 4.5,
+      "reference": "CnRnAAAAHO5S8NqpqDmfDwYbQ_EhD-Bg8NME2xNs71VFASsXG9ZTVdWv07bdZTOD9BokmcV_O6zMlyWUySAs8cZAbfvzc4cnLTKa61is2H1RXVYDKnG8QstW6gqTjBsI5yeb50GX5HXyyMjk3d_t5C4NJVyJPRIQfQHtbw1HteE9wTOXc_iFqxoUAVCf_bkMZNnaJ5Js_FWhe2oiQdQ",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "cafe",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "270 Mare Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.532569,
+          "lng": 0.135887
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "efc2d29dd63cbe8514a16b2132488235a4db59fe",
+      "name": "Vue Cinemas",
+      "photos": [
+        {
+          "height": 100,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102964697141680422980/photos\">Vue Cinemas</a>"
+          ],
+          "photo_reference": "CmRcAAAA_5NZUweyptZb_VguSvJt9ypSfmF9MtqTzH25mxCEl0Q_UmEdPpbx56GCPxjby4Bm8IS1Pa8IFz906dIzs7Z1P2iC_xgl-TeKw3LubuATgc44dBRz8FD-dFbqlv8iP94kEhCMt7DiUVAOmn6Oe4M-JPdlGhSsfp7L8geBQqWMZw_wjfACC49ayw",
+          "width": 228
+        }
+      ],
+      "place_id": "ChIJnbG7z56l2EcRgkkzHktzC-A",
+      "rating": 3.9,
+      "reference": "CmRfAAAA_wvmkjfpehoUYn5EMuPtq5rsNPzfwdO04_asi_8EYc9ErNrJooWL9qo9Yd3Xny8Oe09fLJKzfdnl2LNLh681Vhf0FtgCWC4BjWFqMTuv0iT2-8ii1Y4Vbu8mMs4FbvptEhAWUvScJKCMzXGeGyF8kAjYGhQ9Kl0acsifT7bsDuR5N9BMcOOTTg",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Leisure Park, Cook Road, Dagenham"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.4983077,
+          "lng": -0.1990603
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "7457697cf44756e1ded2bd0bbeaa584f15eccc94",
+      "name": "Odeon Kensington",
+      "permanently_closed": true,
+      "place_id": "ChIJG1OXBvIPdkgRT3KAkcf5x7g",
+      "rating": 2.9,
+      "reference": "CnRkAAAAcsfFY-0Qga5Xud6uWcDZ40euPaZfnrkhbsdYsGJ4gFYIDULAj5IlqkhS3_8E4UzS-XnrRUSVKXwVCGaobaHv--zkCfmpU4YZkc0P1HZUHnmdcnnsVjMylnjrg0hRMwtaQr09m7RnytMOI3f2bC9ouRIQeV7mnbkFdrNilqCPoeHirhoUJgFCqcDEDckUumUnGZghnddULZo",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Kensington High Street, London"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.58894050000001,
+          "lng": -0.5531313999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "8a0cac1e1c0ba138fa52deb381cdadd369ceff50",
+      "name": "Odeon",
+      "permanently_closed": true,
+      "photos": [
+        {
+          "height": 603,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110818737702634061819/photos\">Odeon</a>"
+          ],
+          "photo_reference": "CmRdAAAACNkPsLTDXOLSay8UPSL4bAuPKv64H2uIXxPNi-uYIrLKXxtG71MTGiniH3SyQ-R4jRr-4ubNogJzneTwJZE4AgjLD39sVsp_MCAaT12Nlx_Ll5UaTPtrYytK2EcF4foOEhDpBbUi-2_NqKWq0ZUQGPUlGhS7wuMcNO7FTvZ9Qpu8Km_WoRCYCg",
+          "width": 1280
+        }
+      ],
+      "place_id": "ChIJ3Yx7CE9vdkgRu9QERUzaPmA",
+      "rating": 4,
+      "reference": "CmRYAAAAsbizrPBm9FgASOoZ__5bSnrfDx5CcCrioW2pxuQDlYIj31ttV-gD4IM3n9sOviGRJ-b_PxHsrdgAF6Mxwwe6eIXRsHDK8KDh69PU8mGWGh_RA3oTqyxnZ5lgsjHg0EO-EhAKP11EPSFgS0kMzSg4HwLDGhRsSXf6Nv_sKHIj7uEbh9MoeLQ2yA",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Ethorpe Crescent, Gerrards Cross"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.3707623,
+          "lng": -0.3639973
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "186c80d1e812570291f78abda70b29f8488d1553",
+      "name": "Odeon Cinema Esher",
+      "permanently_closed": true,
+      "photos": [
+        {
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104542887307940252134/photos\">Odeon Cinema Esher</a>"
+          ],
+          "photo_reference": "CmRdAAAAJhzW4p3ykUuAHdnmcOzhYqbN3l_ZpL9QLQI4N9ZoTlqc85covUP_RXPbf_tOwov8gM2mrVkVFApdAvyI1Puc3McAQ6wSLX-NhLFgeRP9VquyEWi9fR2xFWlTkXNFNi53EhBVcioABRqT60tgbO4k-9YOGhRMh6B1CjbfzA2oy2jM3rvHJJoxvg",
+          "width": 600
+        }
+      ],
+      "place_id": "ChIJwXJ1kcgKdkgRjH_TbOAeXrs",
+      "rating": 3.9,
+      "reference": "CnRmAAAAT_urZ4KUqIWLqVLVqQg6ooIjEU0pMhuPg6KFvSjq0FMuslXwsLnREJvQpRqdAoobUMR-GDy_64MsXBARvQZKEd_wTcs6gir3Jc4ClPqUwZQtlq38_cZik-L9_lhYMxE8mbOaFzfg5H8_p2L3x_NfMhIQOj-rs1qks7ENnmEjfGObOhoUjLRTfZSoO_jESG-XEVKmDyxYkf4",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Esher"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 51.57327590000001,
+          "lng": 0.07271609999999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "8413856792b8a69e4a3fb9650055532337d80967",
+      "name": "Odeon Cinema",
+      "permanently_closed": true,
+      "place_id": "ChIJr5w8m5Sm2EcRMo6OPbnmErc",
+      "reference": "CmRgAAAAmTdLnwUzJ-1bdKVOYRrW-vNX0XHolMfWQlOJIqR76T1pbEb-AqILYDNCfNqv3_-Ggs7toYDHT8hK_IILGlaEDrfSfuGbsPDm4DBv2qyKGmT1q-f0vFY4Day5lgmSFyH_EhAlp1dcA-btYOvSj1m6h659GhRaqjUTJntLO5xWmHcC1I9OM5T1DQ",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Information & Booking/Eastern Av/Perth Rd, Ilford"
+    }
+  ],
+  "status": "OK"
+}

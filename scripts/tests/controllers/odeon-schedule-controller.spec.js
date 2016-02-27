@@ -1,9 +1,9 @@
 "use strict";
 
-let OdeonScheduleController = require('../controllers/odeon-schedule-controller.js'),
+let OdeonScheduleController = require('../../controllers/odeon-schedule-controller.js'),
 	chai = require('chai'),
 	sinon = require('sinon'),
-	request = require('../services/request-service.js'),
+	request = require('../../services/request-service.js'),
 	fs = require('fs'),
 	expect = chai.expect;
 
@@ -11,7 +11,7 @@ describe('OdeonScheduleController', function(){
 	let scheduleController;
 
 	function mockGetRequest (){
-		let file = './data/odeon.html',
+		let file = '../data/odeon.html',
 			content = fs.readFileSync(file, 'utf8');
 		return new Promise(function(resolve, reject){
 			resolve(content);
