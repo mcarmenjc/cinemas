@@ -1,9 +1,13 @@
 "use strict";
 
 class Cinema {
-	constructor(name, url){
-		this.name = name;
-		this.url = url;
+	constructor(data){
+		this.name = data.name || '';
+		this.address = data.address || '';
+		this.phoneNumber = data.phoneNumber || '';
+		this.googlePlaceId = data.googlePlaceId || '';
+		this.website = data.website || '';
+		this.location = data.location || {};
 		this.films = [];
 	}
 

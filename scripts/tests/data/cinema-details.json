@@ -1,0 +1,162 @@
+{
+    "html_attributions": [],
+    "result": {
+        "address_components": [
+            {
+                "long_name": "Surrey Quays Leisure Park",
+                "short_name": "Surrey Quays Leisure Park",
+                "types": []
+            },
+            {
+                "long_name": "Redriff Road",
+                "short_name": "Redriff Rd",
+                "types": [
+                    "route"
+                ]
+            },
+            {
+                "long_name": "London",
+                "short_name": "London",
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Surrey Quays",
+                "short_name": "Surrey Quays",
+                "types": [
+                    "postal_town"
+                ]
+            },
+            {
+                "long_name": "United Kingdom",
+                "short_name": "GB",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "SE16 7LL",
+                "short_name": "SE16 7LL",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "adr_address": "Surrey Quays Leisure Park, <span class=\"street-address\">Redriff Rd</span>, <span class=\"extended-address\">London</span>, <span class=\"locality\">Surrey Quays</span> <span class=\"postal-code\">SE16 7LL</span>, <span class=\"country-name\">United Kingdom</span>",
+        "formatted_address": "Surrey Quays Leisure Park, Redriff Rd, London, Surrey Quays SE16 7LL, United Kingdom",
+        "formatted_phone_number": "0871 224 4007",
+        "geometry": {
+            "location": {
+                "lat": 51.4960742,
+                "lng": -0.0448185
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+        "id": "5f62c0846dfb4c9edc186e9dddf517a1f9353ba2",
+        "international_phone_number": "+44 871 224 4007",
+        "name": "Odeon Cinema Surrey Quays",
+        "photos": [
+            {
+                "height": 600,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113911589785180948601/photos\">Odeon Cinema Surrey Quays</a>"
+                ],
+                "photo_reference": "CmRdAAAAlr9csg1gBEW97zw8OJ48oEQcgt3nMV_8HvDXXU6SpHr3HeywBccX2l7BFcc3BZa_msd2zodBfDApYVtUzV5eIfJBV5RwUJm76IuaUhvSWPzAi_U4NkVWhakSXCcLi3bREhCBxLWR1rK7sS7YniHh8FfAGhQOOKDiE70Npic5xJIIB2e1ZN77gA",
+                "width": 600
+            }
+        ],
+        "place_id": "ChIJGTY0qN8CdkgR5fzIXjzgJsY",
+        "rating": 3.3,
+        "reference": "CnRtAAAAmYnLQ8MOs8LCWTWJVV8ZT8jiSObBJFqS-yROXC28Lf95Cg3IYeGRpr36eOF0V4wMpPxfwHCAubYENTalZwCYypGWuwGGWrmdeObDYGgsN4yL3uK3qJAYyJGCfFbwQPVfKbhlE8mfGAqYy6rQB4rmBRIQApv6RhL2-6qQu6JgB7EM6xoU2RjUAipoWLj55bLNdzhGqOf9BPQ",
+        "reviews": [
+            {
+                "aspects": [
+                    {
+                        "rating": 0,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "Michele Sardiello",
+                "author_url": "https://plus.google.com/102291169405938067290",
+                "language": "en",
+                "rating": 2,
+                "text": "I went to see Star Wars I did enjoy the movie but the staff selling tickets and drinks and checking tickets really rude. I had to argue to use the toilet member of staff told me yes you can go two meters later another member of staff stops me and tell to buy ticket - they dont really know what they do I think. They look like the suffering big time, really unhappy and unfriendly. Horrible. ",
+                "time": 1451733798
+            },
+            {
+                "aspects": [
+                    {
+                        "rating": 3,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "DaBoss Govenor",
+                "author_url": "https://plus.google.com/115620949508395875393",
+                "language": "en",
+                "profile_photo_url": "//lh5.googleusercontent.com/-EU8tNnZjFxQ/AAAAAAAAAAI/AAAAAAAABUM/OH2OgI-zi-w/photo.jpg",
+                "rating": 5,
+                "text": "One of the only cinemas I go 2 and it is great. Food and drink are cheap (for cinema prices) but generally we go 2 a local newsagent to get the food and drink. Staff are really nice and do their best 2 let u have a good time ",
+                "time": 1453997947
+            },
+            {
+                "aspects": [
+                    {
+                        "rating": 0,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "Alex",
+                "author_url": "https://plus.google.com/109507026961348531446",
+                "language": "en",
+                "profile_photo_url": "//lh6.googleusercontent.com/-rLk5c-ev4Ho/AAAAAAAAAAI/AAAAAAAAi2c/BcERtTnC6kc/photo.jpg",
+                "rating": 2,
+                "text": "Place has deteriorated over the years - and I've been going since the early 00s as a teen. \n\nIt's surely meant to improve? But now it's cold, has ridiculous priced food and it stinks. Not a clean cinema - they need to have the seats cleaned quarterly at least. The staff aren't as cool as they used to be, they're now entitled and passive. And whats with the brutish security gaurd as a ticket usher? GET A GRIP.",
+                "time": 1450197441
+            },
+            {
+                "aspects": [
+                    {
+                        "rating": 0,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "PSN ID J-Browne",
+                "author_url": "https://plus.google.com/104823534919149400198",
+                "language": "en",
+                "rating": 1,
+                "text": "I'm so disappointed, the cinema is clean and generally I enjoy my experience there but you can't phone them easily for info, my dad is disabled and I have been ringing their number over and over to ask some simple questions about accessibility and they haven't picked up once. Terrible!",
+                "time": 1450376485
+            },
+            {
+                "aspects": [
+                    {
+                        "rating": 2,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "Ioana Costea",
+                "author_url": "https://plus.google.com/112501001835131834074",
+                "language": "en",
+                "profile_photo_url": "//lh6.googleusercontent.com/-DuU0t0hrvv4/AAAAAAAAAAI/AAAAAAAACmY/XkCQW1FxKuc/photo.jpg",
+                "rating": 4,
+                "text": "Decent clean cinema and the seats are comfortable. Don't have anything to complain about, except that maybe the food is a bit expensive (but it didn't really bothered me).",
+                "time": 1454181347
+            }
+        ],
+        "scope": "GOOGLE",
+        "types": [
+            "movie_theater",
+            "point_of_interest",
+            "establishment"
+        ],
+        "url": "https://maps.google.com/?cid=14278346218517626085",
+        "user_ratings_total": 61,
+        "utc_offset": 0,
+        "vicinity": "Surrey Quays Leisure Park, Redriff Road, London, Surrey Quays",
+        "website": "http://www.odeon.co.uk/cinemas/surrey_quays/18/?utm_source=google&utm_medium=maps&utm_content=surreyquays&utm_campaign=googleplaces"
+    },
+    "status": "OK"
+}

@@ -9,7 +9,7 @@ let CinemaScheduleController = require('./cinema-schedule-controller.js'),
 class OdeonScheduleController extends CinemaScheduleController {
 	getSchedule(cinemaName, cinemaUrl){
 		let cinema = new Cinema(cinemaName, cinemaUrl);
-		return request.get(cinema.url).then(body => {
+		return request.get(cinema.website).then(body => {
 			let $ = cheerio.load(body);
 			let me = this;
 			$('.film-detail.WEEK').each(function(){

@@ -9,7 +9,7 @@ let CinemaScheduleController = require('./cinema-schedule-controller.js'),
 class PicturehouseScheduleController extends CinemaScheduleController {
 	getSchedule(cinemaName, cinemaUrl){
 		let cinema = new Cinema(cinemaName, cinemaUrl);
-		return request.get(cinema.url + '/Whats_On')
+		return request.get(cinema.website + '/Whats_On')
 		.then(body => {
 			let $ = cheerio.load(body);
 			let me = this;

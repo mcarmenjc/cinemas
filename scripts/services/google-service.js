@@ -8,9 +8,9 @@ class GoogleService {
 		this.parameters = {
 			location: '51.528308,-0.3817814',
 			radius: '50000',
-			type: 'movie_theater',
-			key: 'AIzaSyB_bVENhpQBDH3N_G5iNMlV0PLs9Tj20u4'
+			type: 'movie_theater'
 		};
+		this.key = 'AIzaSyB_bVENhpQBDH3N_G5iNMlV0PLs9Tj20u4';
 	}
 
 	getCinemasByBrand(brand){
@@ -72,7 +72,27 @@ class GoogleService {
 		for(let key in this.parameters){
 			url = url + key + '=' + encodeURI(this.parameters[key]) + '&';
 		}
+		url = url + 'key=' + this.key + '&';
 		url = url + 'name=' + name;
+		return url;
+	}
+
+	getDetails(placeId){
+		let url = this.getDetailsUrl(placeId);
+		return request.get(url)
+		.then(resultJSON => {
+			let result = JSON.parse(resultJSON);
+			return result.result;
+		})
+		.catch(error => {
+			console.error(error);
+		})
+	}
+
+	getDetailsUrl(placeId){
+		let url = this.baseUrl + 'details/json?';
+		url = url + 'key=' + this.key + '&';
+		url = url + 'placeid=' + placeId;
 		return url;
 	}
 }

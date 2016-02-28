@@ -84,4 +84,36 @@ describe('GoogleService', function(){
 			});
 		});
 	});
+
+	describe('when doing a detail request', function(){
+		function mockGetRequest (){
+			let file = '../data/cinema-details.json',
+				content = fs.readFileSync(file, 'utf8');
+			return new Promise(function(resolve, reject){
+				resolve(content);
+			});
+		}
+
+		before(function(done){
+			sinon.stub(request, "get", mockGetRequest);
+			done();
+		});
+
+		beforeEach(function(){
+			googleService = new GoogleService();
+		});
+
+		after(function(done){
+			request.get.restore();
+	    	done();
+		});
+
+		it('should get place info', function(done){
+			googleService.getDetails('placeID')
+			.then(placeDetails => {
+				expect(placeDetails).not.to.be.undefined;
+				done();
+			});
+		});
+	});
 });
