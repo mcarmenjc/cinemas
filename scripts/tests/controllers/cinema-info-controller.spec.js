@@ -23,7 +23,7 @@ describe('CinemaInfoController', function(){
 
 		it('should get a list of cinemas using the GoogleService', function(done){
 			let cinemaName = 'cinema';
-			cinemaInfoController.getCinemaInfo(cinemaName);
+			cinemaInfoController.saveCinemasInfo(cinemaName);
 			expect(getCinemasStub).to.have.been.called;
 			expect(getCinemasStub).to.have.been.calledWith(cinemaName);
 			done();
@@ -110,7 +110,7 @@ describe('CinemaInfoController', function(){
 			let cinemaName = 'cinema';
 			let cinemaId = 'ChIJcZ1xXg5udkgRleINWx2c0Ls';
 			getCinemaDetailsStub = sinon.stub(cinemaInfoController, 'getCinemaDetails');
-			cinemaInfoController.getCinemaInfo(cinemaName).then(function(){
+			cinemaInfoController.saveCinemasInfo(cinemaName).then(function(){
 				expect(getCinemaDetailsStub).to.have.been.called;
 				expect(getCinemaDetailsStub).to.have.been.calledWith(cinemaId);
 				done();
@@ -120,7 +120,7 @@ describe('CinemaInfoController', function(){
 		it('should get the details of a cinema using GoogleService', function(done){
 			let cinemaName = 'cinema';
 			let cinemaId = 'ChIJcZ1xXg5udkgRleINWx2c0Ls';
-			cinemaInfoController.getCinemaInfo(cinemaName).then(function(){
+			cinemaInfoController.saveCinemasInfo(cinemaName).then(function(){
 				expect(getDetailsStub).to.have.been.called;
 				expect(getDetailsStub).to.have.been.calledWith(cinemaId);
 				done();

@@ -23,6 +23,8 @@ class Cinema {
 		}
 		return undefined;
 	}
+
+	save(){}
 }
 
 module.exports = Cinema;

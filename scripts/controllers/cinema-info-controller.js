@@ -8,11 +8,16 @@ class CinemaInfoController {
 		this.googleService = new GoogleService();
 	}
 
-	getCinemaInfo(brandName){
+	saveCinemasInfo(brandName){
 		return this.googleService.getCinemasByBrand(brandName)
 		.then(cinemaList => {
 			for(let cinema of cinemaList){
 				this.getCinemaDetails(cinema.place_id);
+				.then(cinema => {
+					if (cinema !== undefined){
+						cinema.save();
+					}
+				})
 			}
 		})
 		.catch(error => {
@@ -23,8 +28,9 @@ class CinemaInfoController {
 	getCinemaDetails(cinemaId){
 		return this.googleService.getDetails(cinemaId)
 		.then(cinemaDetails => {
+			let cinema = undefined;
 			if (cinemaDetails !== {}){
-				let cinema = new Cinema({
+				cinema = new Cinema({
 					address: cinemaDetails.formatted_address,
 					phoneNumber: cinemaDetails.international_phone_number,
 					name: cinemaDetails.name,
@@ -37,6 +43,7 @@ class CinemaInfoController {
 					placeId: cinemaId
 				});
 			}
+			return cinema;
 		})
 		.catch(error => {
 			console.error(error);
