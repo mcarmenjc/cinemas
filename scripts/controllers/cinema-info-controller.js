@@ -11,7 +11,6 @@ class CinemaInfoController {
 	getCinemaInfo(brandName){
 		return this.googleService.getCinemasByBrand(brandName)
 		.then(cinemaList => {
-			console.log(cinemaList.length);
 			for(let cinema of cinemaList){
 				this.getCinemaDetails(cinema.place_id);
 			}
@@ -34,9 +33,9 @@ class CinemaInfoController {
 					location: {
 						lat: cinemaDetails.geometry.location.lat,
 						lng: cinemaDetails.geometry.location.lng
-					}
+					},
+					placeId: cinemaId
 				});
-				console.log(cinema);
 			}
 		})
 		.catch(error => {
