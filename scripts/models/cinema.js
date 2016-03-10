@@ -1,4 +1,5 @@
 "use strict";
+let dbService = require('../services/mongodb-service.js');
 
 class Cinema {
 	constructor(data){
@@ -24,7 +25,17 @@ class Cinema {
 		return undefined;
 	}
 
-	save(){}
+	save(){
+		let cinemaData = {
+			name: this.name,
+			address: this.address,
+			phoneNumber: this.phoneNumber,
+			googlePlaceId: this.googlePlaceId,
+			website: this.website,
+			location: this.location,
+		};
+		dbService.insertDocument('cinemas', cinemaData);
+	}
 }
 
 module.exports = Cinema;

@@ -1,6 +1,8 @@
 "use strict";
 
 let CinemaInfoController = require('../../controllers/cinema-info-controller.js'),
+	dbService = require('../../services/mongodb-service.js'),
+	Cinema = require('../../models/cinema.js'),
 	chai = require('chai'),
 	sinon = require('sinon'),
 	sinonChai = require('sinon-chai'),
@@ -12,6 +14,16 @@ describe('CinemaInfoController', function(){
 	describe('when getting the list of cinemas for a brand', function(){
 		let cinemaInfoController;
 		let getCinemasStub;
+		function mockInsertDocument (){
+			return new Promise(function(resolve, reject){
+				resolve(true);
+			});
+		}
+
+		before(function(){
+			sinon.stub(dbService, "insertDocument", mockInsertDocument);
+		});
+
 		beforeEach(function(){
 			cinemaInfoController = new CinemaInfoController();
 			getCinemasStub = sinon.stub(cinemaInfoController.googleService, 'getCinemasByBrand', function(){
@@ -19,6 +31,10 @@ describe('CinemaInfoController', function(){
 					resolve([]);
 				});
 			});
+		});
+
+		after(function(){
+			dbService.insertDocument.restore();
 		});
 
 		it('should get a list of cinemas using the GoogleService', function(done){
@@ -30,11 +46,20 @@ describe('CinemaInfoController', function(){
 		});
 	});
 
-	describe('when getting a cinema details', function(){
+	describe('when getting the cinema details', function(){
 		let cinemaInfoController,
 			getCinemasStub,
-			getDetailsStub,
-			getCinemaDetailsStub;
+			getDetailsStub;
+		function mockInsertDocument (){
+			return new Promise(function(resolve, reject){
+				resolve(true);
+			});
+		}
+
+		before(function(){
+			sinon.stub(dbService, "insertDocument", mockInsertDocument);
+		});
+
 		beforeEach(function(){
 			cinemaInfoController = new CinemaInfoController();
 			getCinemasStub = sinon.stub(cinemaInfoController.googleService, 'getCinemasByBrand', function(){
@@ -106,15 +131,8 @@ describe('CinemaInfoController', function(){
 			});
 		});
 
-		it('should get the details for the cinemas in the list', function(done){
-			let cinemaName = 'cinema';
-			let cinemaId = 'ChIJcZ1xXg5udkgRleINWx2c0Ls';
-			getCinemaDetailsStub = sinon.stub(cinemaInfoController, 'getCinemaDetails');
-			cinemaInfoController.saveCinemasInfo(cinemaName).then(function(){
-				expect(getCinemaDetailsStub).to.have.been.called;
-				expect(getCinemaDetailsStub).to.have.been.calledWith(cinemaId);
-				done();
-			});
+		after(function(){
+			dbService.insertDocument.restore();
 		});
 
 		it('should get the details of a cinema using GoogleService', function(done){
@@ -123,6 +141,94 @@ describe('CinemaInfoController', function(){
 			cinemaInfoController.saveCinemasInfo(cinemaName).then(function(){
 				expect(getDetailsStub).to.have.been.called;
 				expect(getDetailsStub).to.have.been.calledWith(cinemaId);
+				done();
+			});
+		});
+
+		it('should get the details for the cinemas in the list', function(done){
+			let cinemaName = 'cinema';
+			let cinemaId = 'ChIJcZ1xXg5udkgRleINWx2c0Ls';
+			let getCinemaDetailsSpy = sinon.spy(cinemaInfoController, 'getCinemaDetails');
+			cinemaInfoController.saveCinemasInfo(cinemaName).then(function(){
+				expect(getCinemaDetailsSpy).to.have.been.called;
+				expect(getCinemaDetailsSpy).to.have.been.calledWith(cinemaId);
+				done();
+			});
+		});
+	});
+	
+	describe('when the cinema details are got', function(){
+		let cinemaInfoController,
+			getCinemasStub;
+		function mockInsertDocument (){
+			return new Promise(function(resolve, reject){
+				resolve(true);
+			});
+		}
+
+		before(function(){
+			sinon.stub(dbService, "insertDocument", mockInsertDocument);
+		});
+
+		beforeEach(function(){
+			cinemaInfoController = new CinemaInfoController();
+			getCinemasStub = sinon.stub(cinemaInfoController.googleService, 'getCinemasByBrand', function(){
+				return new Promise(function(resolve, reject){
+					resolve([{
+			            geometry: {
+			                location: {
+			                    lat: 51.54503599999999,
+			                    lng: -0.4760121
+			                }
+			            },
+			            icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png',
+			            id: '26e8980313aee19a47a287c45e31ead729305981',
+			            name: 'Odeon Cinema Uxbridge',
+			            opening_hours: {
+			                open_now: true,
+			                weekday_text: []
+			            },
+			            place_id: 'ChIJcZ1xXg5udkgRleINWx2c0Ls',
+			            rating: 3.7,
+			            reference: 'CnRpAAAAOxtqEfRQviJHUh5hVizskPavkoxUA8LIkTUsgIylnU2cEsDqDDUm_N5DVkdf8ojCmfypOUk7mosOyxH_LflnhbRVW14-AhySSMzVV9RRgQAqfThKyhYoYiyjF1ICio1w5aUn12koN0vP3HTpgGEE_xIQ5_Mg6jXPKeEjfdfH8-cExBoU3gurTc1B1dymAX3q6frwTUnKpK8',
+			            scope: 'GOOGLE',
+			            types: [
+			                'movie_theater',
+			                'movie_rental',
+			                'point_of_interest',
+			                'establishment'
+			            ],
+			            vicinity: 'The Chimes Shopping Centre, Uxbridge'
+			        }]);
+				});
+			});
+		});
+
+		after(function(){
+			dbService.insertDocument.restore();
+		});
+
+		it('should save the cinema info', function(done){
+			let cinemaName = 'cinema';
+			let cinema = new Cinema({
+				address: 'address',
+				phoneNumber: '07654321000',
+				name: cinemaName,
+				googlePlaceId: '111111111',
+				website: 'http://cinema.cinema',
+				location: {
+					lat: 0,
+					lng: 0
+				}
+			});
+			let cinemaSaveSpy = sinon.spy(cinema, 'save');
+			let getCinemaDetailsStub = sinon.stub(cinemaInfoController, 'getCinemaDetails', function(){
+				return new Promise(function(resolve, reject){
+					resolve(cinema);
+				});
+			});
+			cinemaInfoController.saveCinemasInfo(cinemaName).then(function(){
+				expect(cinemaSaveSpy).to.have.been.called;
 				done();
 			});
 		});

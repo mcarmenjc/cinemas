@@ -1,5 +1,6 @@
-var MongoClient = require('mongodb').MongoClient;
+"use strict";
 
+let MongoClient = require('mongodb').MongoClient;
 const uri = 'mongodb://localhost:27017/magic';
 
 function connect(){

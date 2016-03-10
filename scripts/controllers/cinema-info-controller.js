@@ -17,11 +17,8 @@ class CinemaInfoController {
 					if (cinema !== undefined){
 						cinema.save();
 					}
-				})
+				});
 			}
-		})
-		.catch(error => {
-			console.error(error);
 		});
 	}
 
@@ -39,14 +36,10 @@ class CinemaInfoController {
 					location: {
 						lat: cinemaDetails.geometry.location.lat,
 						lng: cinemaDetails.geometry.location.lng
-					},
-					placeId: cinemaId
+					}
 				});
 			}
 			return cinema;
-		})
-		.catch(error => {
-			console.error(error);
 		});
 	}
 }
