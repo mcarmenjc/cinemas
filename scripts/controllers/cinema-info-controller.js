@@ -12,7 +12,7 @@ class CinemaInfoController {
 		return this.googleService.getCinemasByBrand(brandName)
 		.then(cinemaList => {
 			for(let cinema of cinemaList){
-				this.getCinemaDetails(cinema.place_id);
+				this.getCinemaDetails(cinema.place_id)
 				.then(cinema => {
 					if (cinema !== undefined){
 						cinema.save();
