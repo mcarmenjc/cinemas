@@ -3,4 +3,5 @@
 let CinemaInfoController = require('./controllers/cinema-info-controller.js');
 
 let cinemaInfoController = new CinemaInfoController();
+
 cinemaInfoController.saveCinemasInfo('picturehouse');

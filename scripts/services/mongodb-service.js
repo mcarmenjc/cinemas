@@ -66,7 +66,14 @@ function insertDocument(collection, document){
 	return connect().then(db => {
 		insertOne(db, collection, document).then(result => {
 			db.close();
+		})
+		.catch(error => {
+			db.close();
+			console.error(error);
 		});
+	})
+	.catch(error => {
+		console.error(error);
 	});
 }
 
@@ -74,7 +81,14 @@ function insertDocuments(collection, document){
 	return connect().then(db => {
 		insertMany(db, collection, document).then(result => {
 			db.close();
+		})
+		.catch(error => {
+			db.close();
+			console.error(error);
 		});
+	})
+	.catch(error => {
+		console.error(error);
 	});
 }
 
@@ -84,7 +98,14 @@ function queryAll(collection){
 		find(db, collection, query).then(documents => {
 			db.close();
 			return documents;
+		})
+		.catch(error => {
+			db.close();
+			console.error(error);
 		});
+	})
+	.catch(error => {
+		console.error(error);
 	});
 }
 
@@ -93,7 +114,14 @@ function query(collection, query){
 		find(db, collection, query).then(documents => {
 			db.close();
 			return documents;
+		})
+		.catch(error => {
+			db.close();
+			console.error(error);
 		});
+	})
+	.catch(error => {
+		console.error(error);
 	});
 }
 
@@ -101,8 +129,15 @@ function update (collection, docQuery, newData) {
 	return connect().then(db => {
 		updateOne(db, docQuery, newData).then(result => {
 			db.close();
+		})
+		.catch(error => {
+			db.close();
+			console.error(error);
 		});
-	});	
+	})
+	.catch(error => {
+		console.error(error);
+	});
 }
 
 module.exports = {
