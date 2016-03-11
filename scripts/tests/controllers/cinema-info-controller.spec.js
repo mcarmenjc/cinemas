@@ -38,10 +38,14 @@ describe('CinemaInfoController', function(){
 		});
 
 		it('should get a list of cinemas using the GoogleService', function(done){
-			let cinemaName = 'cinema';
-			cinemaInfoController.saveCinemasInfo(cinemaName);
+			let cinemaName = 'cinema',
+				cityLocation = {
+					lat: 51.528308,
+					lng: -0.3817814
+				};
+			cinemaInfoController.saveCinemasInfo(cityLocation, cinemaName);
 			expect(getCinemasStub).to.have.been.called;
-			expect(getCinemasStub).to.have.been.calledWith(cinemaName);
+			expect(getCinemasStub).to.have.been.calledWith(cityLocation, cinemaName);
 			done();
 		});
 	});
@@ -136,9 +140,13 @@ describe('CinemaInfoController', function(){
 		});
 
 		it('should get the details of a cinema using GoogleService', function(done){
-			let cinemaName = 'cinema';
-			let cinemaId = 'ChIJcZ1xXg5udkgRleINWx2c0Ls';
-			cinemaInfoController.saveCinemasInfo(cinemaName).then(function(){
+			let cinemaName = 'cinema',
+				cinemaId = 'ChIJcZ1xXg5udkgRleINWx2c0Ls',
+				cityLocation = {
+					lat: 51.528308,
+					lng: -0.3817814
+				};
+			cinemaInfoController.saveCinemasInfo(cityLocation, cinemaName).then(function(){
 				expect(getDetailsStub).to.have.been.called;
 				expect(getDetailsStub).to.have.been.calledWith(cinemaId);
 				done();
@@ -146,10 +154,14 @@ describe('CinemaInfoController', function(){
 		});
 
 		it('should get the details for the cinemas in the list', function(done){
-			let cinemaName = 'cinema';
-			let cinemaId = 'ChIJcZ1xXg5udkgRleINWx2c0Ls';
-			let getCinemaDetailsSpy = sinon.spy(cinemaInfoController, 'getCinemaDetails');
-			cinemaInfoController.saveCinemasInfo(cinemaName).then(function(){
+			let cinemaName = 'cinema',
+				cinemaId = 'ChIJcZ1xXg5udkgRleINWx2c0Ls',
+				cityLocation = {
+					lat: 51.528308,
+					lng: -0.3817814
+				},
+				getCinemaDetailsSpy = sinon.spy(cinemaInfoController, 'getCinemaDetails');
+			cinemaInfoController.saveCinemasInfo(cityLocation, cinemaName).then(function(){
 				expect(getCinemaDetailsSpy).to.have.been.called;
 				expect(getCinemaDetailsSpy).to.have.been.calledWith(cinemaId);
 				done();
@@ -209,25 +221,29 @@ describe('CinemaInfoController', function(){
 		});
 
 		it('should save the cinema info', function(done){
-			let cinemaName = 'cinema';
-			let cinema = new Cinema({
-				address: 'address',
-				phoneNumber: '07654321000',
-				name: cinemaName,
-				googlePlaceId: '111111111',
-				website: 'http://cinema.cinema',
-				location: {
-					lat: 0,
-					lng: 0
-				}
-			});
-			let cinemaSaveSpy = sinon.spy(cinema, 'save');
+			let cinemaName = 'cinema',
+				cinema = new Cinema({
+					address: 'address',
+					phoneNumber: '07654321000',
+					name: cinemaName,
+					googlePlaceId: '111111111',
+					website: 'http://cinema.cinema',
+					location: {
+						lat: 0,
+						lng: 0
+					}
+				}),
+				cityLocation = {
+					lat: 51.528308,
+					lng: -0.3817814
+				},
+				cinemaSaveSpy = sinon.spy(cinema, 'save');
 			let getCinemaDetailsStub = sinon.stub(cinemaInfoController, 'getCinemaDetails', function(){
 				return new Promise(function(resolve, reject){
 					resolve(cinema);
 				});
 			});
-			cinemaInfoController.saveCinemasInfo(cinemaName).then(function(){
+			cinemaInfoController.saveCinemasInfo(cityLocation, cinemaName).then(function(){
 				expect(cinemaSaveSpy).to.have.been.called;
 				done();
 			});

@@ -64,7 +64,7 @@ function updateOne(db, collection, docQuery, updatedData){
 
 function insertDocument(collection, document){
 	return connect().then(db => {
-		insertOne(db, collection, document).then(result => {
+		return insertOne(db, collection, document).then(result => {
 			db.close();
 		})
 		.catch(error => {
@@ -79,7 +79,7 @@ function insertDocument(collection, document){
 
 function insertDocuments(collection, document){
 	return connect().then(db => {
-		insertMany(db, collection, document).then(result => {
+		return insertMany(db, collection, document).then(result => {
 			db.close();
 		})
 		.catch(error => {
@@ -95,7 +95,7 @@ function insertDocuments(collection, document){
 function queryAll(collection){
 	let query = undefined;
 	return connect().then(db => {
-		find(db, collection, query).then(documents => {
+		return find(db, collection, query).then(documents => {
 			db.close();
 			return documents;
 		})
@@ -111,7 +111,7 @@ function queryAll(collection){
 
 function query(collection, query){
 	return connect().then(db => {
-		find(db, collection, query).then(documents => {
+		return find(db, collection, query).then(documents => {
 			db.close();
 			return documents;
 		})
@@ -127,7 +127,7 @@ function query(collection, query){
 
 function update (collection, docQuery, newData) {
 	return connect().then(db => {
-		updateOne(db, docQuery, newData).then(result => {
+		return updateOne(db, docQuery, newData).then(result => {
 			db.close();
 		})
 		.catch(error => {

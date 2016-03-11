@@ -5,16 +5,13 @@ let request = require('./request-service.js');
 class GoogleService {
 	constructor(){
 		this.baseUrl = 'https://maps.googleapis.com/maps/api/place/';
-		this.parameters = {
-			location: '51.528308,-0.3817814',
-			radius: '50000',
-			type: 'movie_theater'
-		};
+		this.type = 'movie_theater';
+		this.radius = '50000';
 		this.key = 'AIzaSyB_bVENhpQBDH3N_G5iNMlV0PLs9Tj20u4';
 	}
 
-	getCinemasByBrand(brand){
-		let url = this.getNearbyUrl(brand);
+	getCinemasByBrand(cityLocation, brand){
+		let url = this.getNearbyUrl(cityLocation, brand);
 		let cinemaPlaces = [];
 		return this.nearBySearch(url)
 		.then(result => {
@@ -67,13 +64,13 @@ class GoogleService {
 		});
 	}
 
-	getNearbyUrl(name){
+	getNearbyUrl(cityLocation, name){
 		let url = this.baseUrl + 'nearbysearch/json?';
-		for(let key in this.parameters){
-			url = url + key + '=' + encodeURI(this.parameters[key]) + '&';
-		}
-		url = url + 'key=' + this.key + '&';
-		url = url + 'name=' + name;
+		url = url + 'location=' + encodeURI(cityLocation.lat + ',' + cityLocation.lng) + '&';
+		url = url + 'radius=' + encodeURI(this.radius) + '&';
+		url = url + 'type=' + encodeURI(this.type) + '&';
+		url = url + 'key=' + encodeURI(this.key) + '&';
+		url = url + 'name=' + encodeURI(name);
 		return url;
 	}
 

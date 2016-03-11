@@ -8,4 +8,4 @@ class City {
 	}
 }
 
-module.exports = Cinema;
+module.exports = City;

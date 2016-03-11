@@ -8,8 +8,8 @@ class CityController {
 	}
 
 	getAllCities(){
-		
+		return dbService.queryAll('cities');
 	}
 }
 
-module.exports = CinemaInfoController;
+module.exports = CityController;
